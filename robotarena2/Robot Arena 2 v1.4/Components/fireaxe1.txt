@@ -1,0 +1,15 @@
+name = Fireman's Axe
+preview = fireaxe_preview.bmp
+dir = fireaxe
+model = fireaxe1.gmf
+type = weapons
+base = Weapon
+styles = Default
+description = Here's an axe that can really get the job done.
+damagesounds = sounds\metal_collision_light.wav
+normal = true 1 0 0
+decal = single_slash.tga 0 0 1 .5 .5 1
+attachsound = sounds\cmp_generic.wav
+concussion = .9
+piercing = .4
+standard = 1

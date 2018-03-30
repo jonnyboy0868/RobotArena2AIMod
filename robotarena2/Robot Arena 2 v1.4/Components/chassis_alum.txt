@@ -1,0 +1,3 @@
+name = Chassis
+damagesounds = sounds\aluminum_collision.wav,sounds\aluminum_collision2.wav,sounds\aluminum_collision3.wav
+standard = 1

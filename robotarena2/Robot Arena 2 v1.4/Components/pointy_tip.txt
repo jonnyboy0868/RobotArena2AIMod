@@ -1,0 +1,14 @@
+name = Pointy tip
+dir = pointy_tip
+type = weapons
+base = Weapon
+model = pointy_tip.gmf
+preview = pointy_preview.bmp
+description = Sharp pointed spike for a variety of poking uses.
+damagesounds = sounds\high_metal_tink.wav
+normal = false 0 1 0
+decal = pierce02.tga 0 0 1 .5 .5 0
+attachsound = sounds\cmp_generic.wav
+concussion = 0
+piercing = 1
+standard = 1

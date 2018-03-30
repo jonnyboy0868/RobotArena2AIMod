@@ -1,0 +1,16 @@
+name = DDT Burst Motor
+dir = burstmotor
+type = mechanics
+base = BurstMotor
+model = burstmotor.gmf
+preview = burstmotor_preview.bmp
+description = The burst motor rotates in a limited range of motion at a high velocity. You'll need to select this component and set start and end ranges after placing it. Wire a button to trigger the spring release. Motor automatically retracts to its starting position.
+master = bmotor_body
+passthru = axle_collision
+elecMaxInOutRate = -500
+burst = 0 50 90
+power = 5 35
+sort = 10
+firesound = sounds\burst_trigger.wav
+attachsound = sounds\cmp_generic.wav
+standard = 1

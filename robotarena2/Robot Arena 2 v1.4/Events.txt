@@ -1,0 +1,481 @@
+0
+F.O.R.C.E. Tournament
+<text font fg_mcn14>The bot association, Friends of Robotic Combat Events, began this tournament as a refuge for young robot builders scolded by critics of violent pastimes.</text>
+4
+Arenas\event_results\prizes\Fruit_Punch\Fruit_Punch.gmf
+<text font fg_mcn14>You didn't win, but all participants receive a free six-pack of Fruity-Punch.</text>
+Arenas\event_results\prizes\Vacation_Photo\vacation_photo.gmf
+<text font fg_mcn14>At least you won the first round. You won an autographed photo of the beautiful supermodel, Glenda Goodsmile.</text>
+Arenas\event_results\prizes\VCR_Series\VCR_Series2.gmf
+<text font fg_mcn14>Hey, pretty good. You won two rounds! You won the video casette series, 'How to Build a Robot in Metal Shop Class Without the Teacher Finding Out.'</text>
+Arenas\event_results\prizes\VCR_Series\VCR_Series.gmf
+<text font fg_mcn14>Wow! You won three rounds! Nice job. You won the video casette series, 'How To Turn Your Toaster Into an Arc Welder.'</text>
+Arenas\event_results\prizes\Gold_Cup_Trophy\Gold_Cup_Trophy.gmf
+<text font fg_mcn14>Wow! You won the event! Look at the cool trophy you won!</text>
+UI\teamhq\events\trophies\Gold Cup Trophy.tga
+UI\teamhq\events\ev_force.bmp
+Combat Arena
+Arenas\box\box_preview.bmp
+2
+1
+1
+1
+Robot Magazine Combat Event
+<text font fg_mcn14>Subscribers gather annually in San Diego to show off their latest constructions and compete for a cover photo on the January issue.</text>
+4
+Arenas\event_results\prizes\Value_Meal\value_meal.gmf
+<text font fg_mcn14>Well, you lost round 1, but all participants get a free biggie value meal.</text>
+Arenas\event_results\prizes\Fruit_Punch\Fruit_Punch.gmf
+<text font fg_mcn14>Well, you made it past the first round. All participants get a free six-pack of Fruity Punch.</text>
+Arenas\event_results\prizes\VCR_Series\VCR_Series3.gmf
+<text font fg_mcn14>You won two rounds of this event.You get the video casette series, 'How to Turn Household Goods into Robotic Weapons.'</text>
+Arenas\event_results\prizes\Toughman_Photo\Toughman_Photo.gmf
+<text font fg_mcn14>You won three rounds of this event. You get an autographed photo of the famed bodybuilder, Igor SmockPocket.</text>
+Arenas\event_results\prizes\Masters_Trophy\masters_trophy.gmf
+<text font fg_mcn14>You took FIRST PLACE in this event! You take home this awesome trophy!</text>
+UI\teamhq\events\trophies\Masters Trophy.tga
+UI\teamhq\events\ev_robotmag.bmp
+Bridge of Doom
+Arenas\bridge\bridge_preview.bmp
+2
+1
+1
+2
+Blade Tournament
+<text font fg_mcn14>George Clamsprocket, the legendary robotics master, began this tabletop competition in 1999 at his mansion in Vermont. It was later moved to a more public arena to allow for a larger audience.</text>
+2
+Arenas\event_results\prizes\Fruit_Punch\Fruit_Punch.gmf
+<text font fg_mcn14>You didn't win, but all participants receive a free six-pack of Fruity-Punch.</text>
+Arenas\event_results\prizes\Vacation_Photo\vacation_photo.gmf
+<text font fg_mcn14>Well, you made it past the first round. You won an autographed photo of the beautiful supermodel, Glenda Goodsmile.</text>
+Arenas\event_results\prizes\Spike_Trophy\Spike_Trophy.gmf
+<text font fg_mcn14>You won the event! Here is a great trophy for you!</text>
+UI\teamhq\events\trophies\Spike Trophy.tga
+UI\teamhq\events\ev_blade.bmp
+FlexTop
+Arenas\flextop\tts_preview.bmp
+4
+1
+3
+3
+Robo-Depot
+<text font fg_mcn14>This event was originally intended by media executives to create a franchise of combat centers in five major cities. Most competitors skip the expansion cities and compete exclusively in the Chicago event.</text>
+2
+Arenas\event_results\prizes\VCR_Series\VCR_Series.gmf
+<text font fg_mcn14>Well, you lost round 1, but you get the video casette series, 'How To Turn Your Toaster Into an Arc Welder.'</text>
+Arenas\event_results\prizes\
+<text font fg_mcn14>You won the first round. You get an autographed photo of the famous astronaut, William Fogelberger.</text>
+Arenas\event_results\prizes\Silver_Cup_Trophy\Silver_Cup_Trophy.gmf
+<text font fg_mcn14>You won the entire event! You get this cool trophy!</text>
+UI\teamhq\events\trophies\Silver Cup Trophy.tga
+UI\teamhq\events\ev_robodepot.bmp
+LumaZone
+Arenas\kingofhill\king_preview.bmp
+4
+1
+2
+4
+Remote Xplosion
+<text font fg_mcn14>One of the first combat events ever seen on TV was Remote Xplosion. It's no longer aired, but draws just as big a live audience as it ever did.</text>
+4
+Arenas\event_results\prizes\Fruit_Punch\Fruit_Punch.gmf
+<text font fg_mcn14>You didn't win, but all participants receive a free six-pack of Fruity-Punch.</text>
+Arenas\event_results\prizes\Fruit_Punch\Fruit_Punch.gmf
+<text font fg_mcn14>At least you won the first round. All participants get a free six-pack of Fruity Punch.</text>
+Arenas\event_results\prizes\Toughman_Photo\Toughman_Photo.gmf
+<text font fg_mcn14>Hey, pretty good. You won two rounds! You won an autographed photo of the famed bodybuilder, Igor SmockPocket.</text>
+Arenas\event_results\prizes\VCR_Series\VCR_Series.gmf
+<text font fg_mcn14>Wow! You won three rounds! Nice job. You won the video casette series, 'How To Turn Your Toaster Into an Arc Welder.'</text>
+Arenas\event_results\prizes\Gear_Trophy\gear_trophy.gmf
+<text font fg_mcn14>You took FIRST PLACE in this event! Now that's a nice looking trophy!</text>
+UI\teamhq\events\trophies\Gear Trophy.tga
+UI\teamhq\events\ev_remotex.bmp
+Electric Arena
+Arenas\electric\dm_electric_preview.bmp
+2
+1
+1
+5
+Metal Warriors Event
+<text font fg_mcn14>This televised event started as an educational program, but when ratings soared on an episode about robotic combat, the show was transformed permanently.</text>
+2
+Arenas\event_results\prizes\Hot_Dog\hot_dog.gmf
+<text font fg_mcn14>Well, you lost round 1, but at least you get a free hot dog.</text>
+Arenas\event_results\prizes\VCR_Series\VCR_Series2.gmf
+<text font fg_mcn14>You won the first round. You take home the video casette series, 'How to Build a Robot in Metal Shop Class Without the Teacher Finding Out.'</text>
+Arenas\event_results\prizes\Large_Plaque\large_plaque.gmf
+<text font fg_mcn14>Hey, pretty good. You won two rounds! You won a nice plaque to hang on a wall somewhere!</text>
+UI\teamhq\events\trophies\Large Plaque.tga
+UI\teamhq\events\ev_metalwarriors.bmp
+The Octagon
+Arenas\octagon\oct_preview.bmp
+4
+1
+0
+6
+Strategic Engineering Robot Games
+<text font fg_mcn14>Drawing a large fan base from university professors and engineering professionals, the SERG events are always interesting to watch.</text>
+4
+Arenas\event_results\prizes\Fruit_Punch\Fruit_Punch.gmf
+<text font fg_mcn14>You didn't win, but all participants receive a free six-pack of Fruity-Punch.</text>
+Arenas\event_results\prizes\Value_Meal\value_meal.gmf
+<text font fg_mcn14>At least you won the first round. All participants get a free Biggie Value Meal.</text>
+Arenas\event_results\prizes\Vacation_Photo\vacation_photo.gmf
+<text font fg_mcn14>Hey, pretty good. You won two rounds! You won an autographed photo of the beautiful supermodel, Glenda Goodsmile.</text>
+Arenas\event_results\prizes\VCR_Series\VCR_Series3.gmf
+<text font fg_mcn14>You won three rounds of this event. You won the video casette series, 'How to Turn Household Goods into Robotic Weapons.'</text>
+Arenas\event_results\prizes\Square_Plaque\square_plaque.gmf
+<text font fg_mcn14>You took FIRST PLACE in this event! You won this plaque with your robot's name engraved!</text>
+UI\teamhq\events\trophies\Square Plaque.tga
+UI\teamhq\events\ev_strategiceng.bmp
+Combat Arena
+Arenas\box\box_preview.bmp
+2
+1
+1
+7
+Powerbolt Championship
+<text font fg_mcn14>The Powerbolt Championship was not the first robotic combat tournament, but is regarded as a model event with great officiating and loyal fans.</text>
+4
+Arenas\event_results\prizes\Fruit_Punch\Fruit_Punch.gmf
+<text font fg_mcn14>You didn't win any rounds of this event. All participants get a free six-pack of Fruity Punch.</text>
+Arenas\event_results\prizes\Hot_Dog\hot_dog.gmf
+<text font fg_mcn14>At least you won the first round. You won a free hot dog from the concession stand.</text>
+Arenas\event_results\prizes\VCR_Series\VCR_Series.gmf
+<text font fg_mcn14>You won two rounds of this event.You won the video casette series, 'How To Turn Your Toaster Into an Arc Welder.'</text>
+Arenas\event_results\prizes\Fruit_Punch\Fruit_Punch.gmf
+<text font fg_mcn14>Great event! You won three rounds. You won an autographed photo of the famous astronaut, William Fogelberger.</text>
+Arenas\event_results\prizes\Wrench_Trophy\Wrench_Trophy.gmf
+<text font fg_mcn14>Wow! You won the event! You win this very nice trophy!</text>
+UI\teamhq\events\trophies\Wrench Trophy.tga
+UI\teamhq\events\ev_powerbolt.bmp
+The Octagon
+Arenas\octagon\oct_preview.bmp
+2
+1
+1
+8
+Robo-Destroyers Competition
+<text font fg_mcn14>Prepare to be mangled at this very rough event. The fans are rarely satisfied with a win by points, they want DESTRUCTION!</text>
+4
+Arenas\event_results\prizes\Fruit_Punch\Fruit_Punch.gmf
+<text font fg_mcn14>You didn't win, but all participants receive a free six-pack of Fruity-Punch.</text>
+Arenas\event_results\prizes\Vacation_Photo\vacation_photo.gmf
+<text font fg_mcn14>Well, you made it past the first round. You won an autographed photo of the beautiful supermodel, Glenda Goodsmile.</text>
+Arenas\event_results\prizes\VCR_Series\VCR_Series2.gmf
+<text font fg_mcn14>Hey, pretty good. You won two rounds! You won the video casette series, 'How to Build a Robot in Metal Shop Class Without the Teacher Finding Out.'</text>
+Arenas\event_results\prizes\VCR_Series\VCR_Series.gmf
+<text font fg_mcn14>Wow! You won three rounds! Nice job. You won the video casette series, 'How To Turn Your Toaster Into an Arc Welder.'</text>
+Arenas\event_results\prizes\Silver_Medal\silver_medal.gmf
+<text font fg_mcn14>Hey, pretty good. You really smashed 'em and won it all! You get a silver medal!</text>
+UI\teamhq\events\trophies\Silver Medal.tga
+UI\teamhq\events\ev_robodestroyers.bmp
+Half Circle Arena
+Arenas\half\dm_half_circle_preview.bmp
+2
+1
+0
+9
+Destructavision TV Show
+<text font fg_mcn14>This series is taped in June and shown weekly throughout the fall. Many amateurs see a win here as the pinnacle of success, but seasoned builders don't regard it quite so highly.</text>
+4
+Arenas\event_results\prizes\Value_Meal\value_meal.gmf
+<text font fg_mcn14>You lost in the first round. All competitors get a free Biggie Value Meal.</text>
+Arenas\event_results\prizes\Hot_Dog\hot_dog.gmf
+<text font fg_mcn14>You won the first round. All competitors get a free hot dog.</text>
+Arenas\event_results\prizes\Value_Meal\value_meal.gmf
+<text font fg_mcn14>You managed to win two rounds. All participants get a free Biggie Value Meal.</text>
+Arenas\event_results\prizes\VCR_Series\VCR_Series2.gmf
+<text font fg_mcn14>You won three rounds of this event. You won the video casette series, 'How to Build a Robot in Metal Shop Class Without the Teacher Finding Out.'</text>
+Arenas\event_results\prizes\Gold_Medal\gold_medal.gmf
+<text font fg_mcn14>You took FIRST PLACE in this event! You won a very nice gold medal!</text>
+UI\teamhq\events\trophies\Gold Medal.tga
+UI\teamhq\events\ev_destructavision.bmp
+Combat Arena
+Arenas\box\box_preview.bmp
+2
+1
+1
+10
+Pit of Destruction
+<text font fg_mcn14>Unlicensed and barely regulated, this is a brutal contest of robotic prowess. You might leave your kid sister at home for this one.</text>
+2
+Arenas\event_results\prizes\Fruit_Punch\Fruit_Punch.gmf
+<text font fg_mcn14>You lost in the first round. All participants get a free six-pack of Fruity Punch.</text>
+Arenas\event_results\prizes\Value_Meal\value_meal.gmf
+<text font fg_mcn14>You won the first round. All participants get a free Biggie Value Meal.</text>
+Arenas\event_results\prizes\Masters_Trophy\masters_trophy.gmf
+<text font fg_mcn14>You won two rounds of this event.You take home this awesome trophy!</text>
+UI\teamhq\events\trophies\Masters Trophy.tga
+UI\teamhq\events\ev_pitofdestruction.bmp
+Metal Skull
+Arenas\skull\dm_skull_preview.bmp
+4
+1
+0
+11
+Robot Scrapyard TV Series
+<text font fg_mcn14>Hosts of this show demonstrate robotic construction techniques during the first half hour, and then display competition in the second half.</text>
+4
+Arenas\event_results\prizes\Fruit_Punch\Fruit_Punch.gmf
+<text font fg_mcn14>Well, you lost the first match. All competitors get a free six-pack of Fruity Punch.</text>
+Arenas\event_results\prizes\Fruit_Punch\Fruit_Punch.gmf
+<text font fg_mcn14>Well, you made it past the first round. All participants get a free six-pack of Fruity Punch.</text>
+Arenas\event_results\prizes\VCR_Series\VCR_Series3.gmf
+<text font fg_mcn14>You managed to win two rounds. You won the video casette series, 'How to Turn Household Goods into Robotic Weapons.'</text>
+Arenas\event_results\prizes\Toughman_Photo\Toughman_Photo.gmf
+<text font fg_mcn14>Great event! You won three rounds. You won an autographed photo of the famed bodybuilder, Igor SmockPocket.</text>
+Arenas\event_results\prizes\Spike_Trophy\Spike_Trophy.gmf
+<text font fg_mcn14>You took FIRST PLACE in this event! Here is a great trophy for you!</text>
+UI\teamhq\events\trophies\Spike Trophy.tga
+UI\teamhq\events\ev_scrapyard.bmp
+Compressor Arena
+Arenas\compressor\dm_compressor_preview.bmp
+2
+1
+1
+12
+Sawblade Elite Competition
+<text font fg_mcn14>Competitors come to this event by invitation only and compete for a very handsome trophy.</text>
+4
+Arenas\event_results\prizes\Fruit_Punch\Fruit_Punch.gmf
+<text font fg_mcn14>You didn't win any rounds of this event. All participants get a free six-pack of Fruity Punch.</text>
+Arenas\event_results\prizes\Hot_Dog\hot_dog.gmf
+<text font fg_mcn14>You won the first round. All competitors get a free hot dog.</text>
+Arenas\event_results\prizes\VCR_Series\VCR_Series.gmf
+<text font fg_mcn14>You managed to win two rounds. You won the video casette series, 'How To Turn Your Toaster Into an Arc Welder.'</text>
+Arenas\event_results\prizes\Vacation_Photo\vacation_photo.gmf
+<text font fg_mcn14>Great event! You won three rounds. You won an autographed photo of the beautiful supermodel, Glenda Goodsmile.</text>
+Arenas\event_results\prizes\Silver_Cup_Trophy\Silver_Cup_Trophy.gmf
+<text font fg_mcn14>You took FIRST PLACE in this event! You get this cool trophy!</text>
+UI\teamhq\events\trophies\Silver Cup Trophy.tga
+UI\teamhq\events\ev_sawbladeelite.bmp
+Bridge of Doom
+Arenas\bridge\bridge_preview.bmp
+2
+1
+1
+13
+Blackvolt TNT Tournament
+<text font fg_mcn14>Blackvolt, manufacturer of robotic batteries, sponsors this tabletop event annually to promote the sport and give away product samples.</text>
+2
+Arenas\event_results\prizes\VCR_Series\VCR_Series.gmf
+<text font fg_mcn14>You lost in the first round. You get the video casette series, 'How To Turn Your Toaster Into an Arc Welder.'</text>
+Arenas\event_results\prizes\Hot_Dog\hot_dog.gmf
+<text font fg_mcn14>You won the first round. You get a free hot dog for that effort.</text>
+Arenas\event_results\prizes\Large_Plaque\large_plaque.gmf
+<text font fg_mcn14>You managed to win both rounds! You get a nice plaque to hang on a wall somewhere!</text>
+UI\teamhq\events\trophies\Large Plaque.tga
+UI\teamhq\events\ev_blackvolt.bmp
+ClawTop
+Arenas\tabletop\clawtop_preview.bmp
+4
+1
+3
+14
+Mortal Robot
+<text font fg_mcn14>A celebration of the creation and destruction of all things robotic. Many competitors even smash their own robots in a bizarre cultish frenzy.</text>
+4
+Arenas\event_results\prizes\Fruit_Punch\Fruit_Punch.gmf
+<text font fg_mcn14>You lost in the first round. All participants get a free six-pack of Fruity Punch.</text>
+Arenas\event_results\prizes\Value_Meal\value_meal.gmf
+<text font fg_mcn14>At least you won the first round. All participants get a free Biggie Value Meal.</text>
+Arenas\event_results\prizes\Toughman_Photo\Toughman_Photo.gmf
+<text font fg_mcn14>You won two rounds of this event.You won an autographed photo of the famed bodybuilder, Igor SmockPocket.</text>
+Arenas\event_results\prizes\Fruit_Punch\Fruit_Punch.gmf
+<text font fg_mcn14>Wow! You won three rounds! Nice job. You won an autographed photo of the famous astronaut, William Fogelberger.</text>
+Arenas\event_results\prizes\Champion_Trophy\Champion_Trophy.gmf
+<text font fg_mcn14>Congratulations, you won the entire event! You won a handsome trophy!</text>
+UI\teamhq\events\trophies\Champion Trophy.tga
+UI\teamhq\events\ev_mortalrobot.bmp
+Metal Skull
+Arenas\skull\dm_skull_preview.bmp
+2
+1
+1
+15
+Robotic Terror Zone
+<text font fg_mcn14>The name sounds more frightening than it is. Good King of the Hill competition, and a nice trophy for your shelf, but few things in Des Moines inspire much terror.</text>
+2
+Arenas\event_results\prizes\Value_Meal\value_meal.gmf
+<text font fg_mcn14>You didn't win any rounds of this event. All competitors get a free Biggie Value Meal.</text>
+Arenas\event_results\prizes\VCR_Series\VCR_Series.gmf
+<text font fg_mcn14>You won the first round. You won the video casette series, 'How To Turn Your Toaster Into an Arc Welder.'</text>
+Arenas\event_results\prizes\Gold_Cup_Trophy\Gold_Cup_Trophy.gmf
+<text font fg_mcn14>Hey, pretty good. You won two rounds! Look at the cool trophy you won!</text>
+UI\teamhq\events\trophies\Gold Cup Trophy.tga
+UI\teamhq\events\ev_terrorzone.bmp
+LumaZone
+Arenas\kingofhill\king_preview.bmp
+4
+1
+2
+16
+Masters of Destruction
+<text font fg_mcn14>Some of the most famous robotics builders come here to share ideas, compete, and enjoy the robotics community.</text>
+2
+Arenas\event_results\prizes\Fruit_Punch\Fruit_Punch.gmf
+<text font fg_mcn14>You lost in the first round. All participants get a free six-pack of Fruity Punch.</text>
+Arenas\event_results\prizes\Value_Meal\value_meal.gmf
+<text font fg_mcn14>Well, you made it past the first round. All participants get a free Biggie Value Meal.</text>
+Arenas\event_results\prizes\Square_Plaque\square_plaque.gmf
+<text font fg_mcn14>You won both rounds of this event.You get this plaque with your robot's name engraved!</text>
+UI\teamhq\events\trophies\Square Plaque.tga
+UI\teamhq\events\ev_mastersofdestruct.bmp
+Combat Arena
+Arenas\box\box_preview.bmp
+4
+1
+0
+17
+Grand Tournament of Robots
+<text font fg_mcn14>For some reason, a lot of old farts come to show off their trains and other junk, but most people head straight to the arena to see the robotic combat.</text>
+4
+Arenas\event_results\prizes\Fruit_Punch\Fruit_Punch.gmf
+<text font fg_mcn14>Well, you lost the first match. All participants get a free six-pack of Fruity Punch.</text>
+Arenas\event_results\prizes\Fruit_Punch\Fruit_Punch.gmf
+<text font fg_mcn14>Well, you made it past the first round. All participants get a free six-pack of Fruity Punch.</text>
+Arenas\event_results\prizes\Value_Meal\value_meal.gmf
+<text font fg_mcn14>You managed to win two rounds. All participants get a free Biggie Value Meal.</text>
+Arenas\event_results\prizes\Value_Meal\value_meal.gmf
+<text font fg_mcn14>Wow! You won three rounds! Nice job. All participants get a free Biggie Value Meal.</text>
+Arenas\event_results\prizes\Silver_Cup_Trophy\Silver_Cup_Trophy.gmf
+<text font fg_mcn14>Congratulations, you won the entire event! You get this cool trophy!</text>
+UI\teamhq\events\trophies\Silver Cup Trophy.tga
+UI\teamhq\events\ev_grand.bmp
+Combat Arena
+Arenas\box\box_preview.bmp
+2
+1
+1
+18
+Ultimate Fighting Machine Competition
+<text font fg_mcn14>Deadly robotic combat. Few words needed. Scary.</text>
+4
+Arenas\event_results\prizes\Fruit_Punch\Fruit_Punch.gmf
+<text font fg_mcn14>You lost in the first round. All participants get a free six-pack of Fruity Punch.</text>
+Arenas\event_results\prizes\Hot_Dog\hot_dog.gmf
+<text font fg_mcn14>Well, you made it past the first round. You won a free hot dog.</text>
+Arenas\event_results\prizes\Hot_Dog\hot_dog.gmf
+<text font fg_mcn14>You managed to win two rounds. You earned a free hot dog.</text>
+Arenas\event_results\prizes\Hot_Dog\hot_dog.gmf
+<text font fg_mcn14>Wow! You won three rounds! Nice job. You won a free hot dog.</text>
+Arenas\event_results\prizes\Wrench_Trophy\Wrench_Trophy.gmf
+<text font fg_mcn14>Wow! You won the event! You win this very nice trophy!</text>
+UI\teamhq\events\trophies\Wrench Trophy.tga
+UI\teamhq\events\ev_ultimatefighting.bmp
+Metal Skull
+Arenas\skull\dm_skull_preview.bmp
+2
+1
+1
+19
+Hot Dog Harry’s Downtown Rumble
+<text font fg_mcn14>Hot Dog Harry's is a classic event that is always well-attended. Be sure to have a chili dog while you are there.</text>
+2
+Arenas\event_results\prizes\Hot_Dog\hot_dog.gmf
+<text font fg_mcn14>Well, you lost the first match. At least you got a free hot dog.</text>
+Arenas\event_results\prizes\Hot_Dog\hot_dog.gmf
+<text font fg_mcn14>At least you won the first round. You won a free hot dog.</text>
+Arenas\event_results\prizes\Large_Plaque\large_plaque.gmf
+<text font fg_mcn14>Hey, pretty good. You won two rounds! You won a nice plaque to hang on a wall somewhere!</text>
+UI\teamhq\events\trophies\Large Plaque.tga
+UI\teamhq\events\ev_hotdog.bmp
+Parking Lot
+Arenas\parkinglot\parkinglot_preview.bmp
+4
+1
+0
+20
+BBA Midwest Event
+<text font fg_mcn14>The Bot Builders Association formed their own tournament for its members and guests. Good bots and great BBQ.</text>
+4
+Arenas\event_results\prizes\Fruit_Punch\Fruit_Punch.gmf
+<text font fg_mcn14>You lost in the first round. All participants get a free six-pack of Fruity Punch.</text>
+Arenas\event_results\prizes\Fruit_Punch\Fruit_Punch.gmf
+<text font fg_mcn14>You won the first round. All participants get a free six-pack of Fruity Punch.</text>
+Arenas\event_results\prizes\Fruit_Punch\Fruit_Punch.gmf
+<text font fg_mcn14>You managed to win two rounds. All participants get a free six-pack of Fruity Punch.</text>
+Arenas\event_results\prizes\Fruit_Punch\Fruit_Punch.gmf
+<text font fg_mcn14>Wow! You won three rounds! Nice job. All participants get a free six-pack of Fruity Punch.</text>
+Arenas\event_results\prizes\Gold_Medal\gold_medal.gmf
+<text font fg_mcn14>Wow! You won the event! You won a very nice gold medal!</text>
+UI\teamhq\events\trophies\Gold Medal.tga
+UI\teamhq\events\ev_bba.bmp
+Bridge of Doom
+Arenas\bridge\bridge_preview.bmp
+2
+1
+1
+21
+Powerup Robot Bash
+<text font fg_mcn14>The Powerup Bash has been a favorite of veteran builders for nearly a decade. Only in recent years has it been shown on television.</text>
+2
+Arenas\event_results\prizes\Hot_Dog\hot_dog.gmf
+<text font fg_mcn14>You didn't win any rounds of this event. All competitors get a free hot dog.</text>
+Arenas\event_results\prizes\Value_Meal\value_meal.gmf
+<text font fg_mcn14>You won the first round. All participants get a free Biggie Value Meal.</text>
+Arenas\event_results\prizes\Gear_Trophy\gear_trophy.gmf
+<text font fg_mcn14>You won both rounds of this event.Now that's a nice looking trophy!</text>
+UI\teamhq\events\trophies\Gear Trophy.tga
+UI\teamhq\events\ev_powerup.bmp
+Hill Top Arena
+Arenas\hilltop\koth2_preview.bmp
+4
+1
+2
+22
+Toledo Robotics Club Gathering
+<text font fg_mcn14>Toledo boasts one of the finest robotics clubs in the country. The club enjoys various competitions throughout the year, but is best known for its "Gathering" event in August.</text>
+2
+Arenas\event_results\prizes\Fruit_Punch\Fruit_Punch.gmf
+<text font fg_mcn14>You didn't win any rounds of this event. All participants get a free six-pack of Fruity Punch.</text>
+Arenas\event_results\prizes\Fruit_Punch\Fruit_Punch.gmf
+<text font fg_mcn14>You won the first round. All participants get a free six-pack of Fruity Punch.</text>
+Arenas\event_results\prizes\Square_Plaque\square_plaque.gmf
+<text font fg_mcn14>You managed to win both rounds. You get this plaque with your robot's name engraved!</text>
+UI\teamhq\events\trophies\Square Plaque.tga
+UI\teamhq\events\ev_toledo.bmp
+ClawTop
+Arenas\tabletop\clawtop_preview.bmp
+4
+1
+3
+23
+Biggie Bot Mash
+<text font fg_mcn14>Biggie Burger offers prizes and free food to competitors who participate in its event, which alternates locations each year. Henry Biggie, company founder, is even known to get in the pits and turn a wrench now and then.</text>
+2
+Arenas\event_results\prizes\Value_Meal\value_meal.gmf
+<text font fg_mcn14>Well, you lost the first match. All participants get a free Biggie Value Meal.</text>
+Arenas\event_results\prizes\Value_Meal\value_meal.gmf
+<text font fg_mcn14>Well, you made it past the first round. All participants get a free Biggie Value Meal.</text>
+Arenas\event_results\prizes\Junior_Trophy\junior_trophy.gmf
+<text font fg_mcn14>You won the event! You'll take home this very nice trophy.</text>
+UI\teamhq\events\trophies\Junior Trophy.tga
+UI\teamhq\events\ev_biggie.bmp
+The Octagon
+Arenas\octagon\oct_preview.bmp
+4
+1
+0
+24
+Father-Daughter Brunch and Robotic Combat
+<text font fg_mcn14>A nice omelette, a little chitchat about school and boys, and then some metal-shredding bot smashup!</text>
+4
+Arenas\event_results\prizes\Fruit_Punch\Fruit_Punch.gmf
+<text font fg_mcn14>You didn't win any rounds of this event. All participants get a free six-pack of Fruity Punch.</text>
+Arenas\event_results\prizes\Fruit_Punch\Fruit_Punch.gmf
+<text font fg_mcn14>At least you won the first round. All participants get a free six-pack of Fruity Punch.</text>
+Arenas\event_results\prizes\Value_Meal\value_meal.gmf
+<text font fg_mcn14>Hey, pretty good. You won two rounds! All participants get a free Biggie Value Meal.</text>
+Arenas\event_results\prizes\Fruit_Punch\Fruit_Punch.gmf
+<text font fg_mcn14>Wow! You won three rounds! Nice job. You won an autographed photo of the famous astronaut, William Fogelberger.</text>
+Arenas\event_results\prizes\Gold_Cup_Trophy\Gold_Cup_Trophy.gmf
+<text font fg_mcn14>Wow! You won the event! Look at the cool trophy you won!</text>
+UI\teamhq\events\trophies\Gold Cup Trophy.tga
+UI\teamhq\events\ev_fatherdaughter.bmp
+Electric Arena
+Arenas\electric\dm_electric_preview.bmp
+2
+1
+1

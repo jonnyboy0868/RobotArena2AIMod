@@ -1,0 +1,13 @@
+name = Rotator Bar
+preview = rotatorbar_preview.bmp
+dir = rotatorbar
+model = rotatorbar1.gmf
+type = extenders
+base = Component
+passthru = rotbar_collision
+styles = Default
+description = Triple extension bar with reinforced brackets. Balanced for rotational applications.
+hitpoints = 500
+fracture = 20
+attachsound = sounds\cmp_generic.wav
+standard = 1

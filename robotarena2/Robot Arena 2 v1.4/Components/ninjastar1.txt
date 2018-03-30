@@ -1,0 +1,13 @@
+name = Ninja Star
+preview = ninjastar_preview.bmp
+dir = ninjastar
+model = ninjastar1.gmf
+type = weapons
+base = Weapon
+styles = Default
+description = This is a giant replica of a ninja throwing star, adapted for use as a spinning or fixed weapon. (Discovered by Radio F)
+hidden = 0
+normal = true 1 0 0  0 1 0
+decal = single_slash.tga 0 0 1 .5 .5 1
+frequency = 5
+standard = 1

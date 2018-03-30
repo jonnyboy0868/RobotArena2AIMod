@@ -1,0 +1,15 @@
+name = Canine VI ChewBlade
+preview = chewblade_preview.bmp
+dir = chewblade
+model = chewblade1.gmf
+type = weapons
+base = Weapon
+passthru = canine_collision
+styles = Default
+description = More than a sawblade, the Canine VI is machined nearly 5 cm thick. Always wear your safety glasses!
+damagesounds = sounds\sawblade_hits_loop.wav
+normal = true 1 0 0  0 1 0
+decal = double_slash.tga 0 0 1 0.5 0.5 0
+attachsound = sounds\cmp_sawblade.wav
+frequency = 5
+standard = 1

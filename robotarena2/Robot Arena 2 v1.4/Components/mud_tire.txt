@@ -1,0 +1,15 @@
+name = Mud Tire
+dir = mudtire
+type = mobility
+base = Wheel
+model = mudtire.gmf
+preview = mudtire_preview.bmp
+description = Head on down to Possum's Creek with these fellars. (Discovered by Radio F)
+contact = wheel_traction
+passthru = h_wheel2
+resistance = .2
+grip = 1
+hidden = 0
+damagesounds = sounds\rubber_collision.wav,sounds\rubber_collision2.wav
+attachsound = sounds\cmp_wheels.wav
+standard = 1

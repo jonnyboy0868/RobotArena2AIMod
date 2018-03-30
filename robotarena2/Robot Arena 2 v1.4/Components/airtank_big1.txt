@@ -1,0 +1,12 @@
+name = Large Air Tank
+preview = airtank_big_preview.bmp
+dir = airtank_big
+model = airtank_big1.gmf
+type = power
+base = AirTank
+styles = Default
+description = Extra large air tank for bots requiring maximum compressed air power.
+airtotal = 2000
+airmaxinoutrate= 200
+attachsound = sounds\cmp_airtank.wav
+standard = 1

@@ -1,0 +1,11 @@
+name = Small Wedge
+preview = smallwedge_preview.bmp
+dir = small_wedge
+model = small_wedge1.gmf
+type = extras
+base = Component
+styles = Default
+description = Small wedge for a variety of uses. Ideal as a flipping device.
+damagesounds = sounds\chorus_metal_tink.wav
+attachsound = sounds\cmp_generic.wav
+standard = 1

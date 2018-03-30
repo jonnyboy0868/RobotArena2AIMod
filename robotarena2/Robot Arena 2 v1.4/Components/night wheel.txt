@@ -1,0 +1,14 @@
+name = N-12 Wheel
+dir = wheel2
+type = mobility
+base = Wheel
+model = wheel2.gmf
+preview = wheel2_preview.bmp
+description = The N-12 has been used on combat robots for many years. It is solid core-rubber around an aluminum rim.
+contact = wheel_traction
+passthru = h_wheel2
+resistance = .2
+grip = 1
+damagesounds = sounds\rubber_collision.wav,sounds\rubber_collision2.wav
+attachsound = sounds\cmp_generic.wav
+standard = 1

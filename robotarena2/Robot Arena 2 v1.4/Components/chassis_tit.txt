@@ -1,0 +1,3 @@
+name = Chassis
+damagesounds = sounds\titanium_hit.wav,sounds\titanium_hit2.wav
+standard = 1

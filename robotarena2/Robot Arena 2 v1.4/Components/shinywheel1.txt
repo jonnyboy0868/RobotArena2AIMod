@@ -1,0 +1,15 @@
+name = Shiny Hub Wheel
+preview = shinywheel_preview.bmp
+dir = shinywheel
+model = shinywheel1.gmf
+type = mobility
+base = Wheel
+styles = Default
+description = Watch the fingerprints on this high-polished wheel cap.
+contact = wheel_traction
+passthru = wheel_collision
+resistance = .12
+grip = 1
+damagesounds = sounds\rubber_collision.wav,sounds\rubber_collision2.wav
+attachsound = sounds\cmp_wheels.wav
+standard = 1

@@ -1,0 +1,16 @@
+name = Razor Tip
+preview = razortip_preview.bmp
+dir = razortip
+model = razortip1.gmf
+type = weapons
+base = Weapon
+passthru = razortip_collision
+styles = Default
+description = Hardened steel core with embedded razor blades.
+damagesounds = sounds\wispy_tink.wav
+decal = pierce01.tga 0 0 1 .5 .5 0
+attachsound = sounds\cmp_generic.wav
+hitpoints = 500
+concussion = 0
+piercing = 1
+standard = 1

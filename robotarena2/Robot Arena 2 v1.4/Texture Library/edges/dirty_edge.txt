@@ -1,0 +1,4 @@
+Filename: dirty_edge.tga
+Preview: dirty_preview.bmp
+Length ratio (world pixels per file pixel): .015
+Width (world pixels): 14

@@ -1,0 +1,16 @@
+name = Servo Motor 302/502/702
+dir = servo_motor
+type = mechanics
+base = ServoMotor
+model = servomotor2.gmf
+preview = servomotor_preview.bmp
+description = The 302 and 502 are low and high powered versions of a servo motor, useful for slow, controlled rotation of attached objects. The 702 model is also high powered, and has a thin body profile. Wire any of the control types to this component.
+passthru = axle_collision
+master = motor_body
+attaching = axle
+power = 4 40
+elecMaxInOutRate = -90
+sort = 20
+runsequence = Sounds\motor_spinup.wav, Sounds\motorloop.wav,Sounds\motor_spindown.wav
+attachsound = sounds\cmp_generic.wav
+standard = 1

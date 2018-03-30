@@ -1,0 +1,13 @@
+name = Flamethrower
+preview = flamethrower_preview.bmp
+dir = flamethrower
+model = flamethrower.gmf
+type = mechanics
+base = Flamethrower
+description = Flame on.
+attachsound = sounds\cmp_generic.wav
+standard = 0
+hidden = 2
+firesound = sounds\flame_thrower.wav
+airmaxinoutrate = -100
+elecmaxinoutrate = -100

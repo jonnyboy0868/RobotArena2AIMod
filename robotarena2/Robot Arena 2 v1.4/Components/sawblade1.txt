@@ -1,0 +1,15 @@
+name = Saw Blade
+preview = sawblade_preview.bmp
+dir = sawblade
+model = sawblade1.gmf
+type = weapons
+base = Weapon
+passthru = saw_collision
+styles = 60 cm diameter, sawblade2.txt, 80 cm diameter, sawblade3.txt, 100 cm diameter, sawblade4.txt, 120 cm diameter, sawblade5.txt, 140 cm diameter
+description = Fine carbide steel sawblade, available in a range of sizes for your cutting pleasure.
+damagesounds = sounds\sawblade_hits_loop.wav
+normal = true 1 0 0  0 1 0
+decal = double_slash.tga 0 0 1 .5 .5 0
+attachsound = sounds\cmp_sawblade.wav
+frequency = 5
+standard = 1

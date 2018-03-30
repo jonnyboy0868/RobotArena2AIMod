@@ -1,0 +1,14 @@
+name = Axle Mount
+preview = axlemount_preview.bmp
+dir = axle
+model = axle1.gmf
+type = extenders
+base = AxleMount
+master = mount_display
+passthru = axle_collision
+attaching = axle
+styles = Default
+description = Generic axle mount is useful for unpowered wheels or rotating objects not needing a motor.
+attachsound = sounds\cmp_wheels.wav
+damageable = false
+standard = 1

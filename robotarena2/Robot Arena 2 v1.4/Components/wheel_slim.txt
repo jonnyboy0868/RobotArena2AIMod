@@ -1,0 +1,14 @@
+name = Slim Wheel
+dir = wheel_slim
+type = mobility
+base = Wheel
+model = wheel_slim.gmf
+preview = wheel_slim_preview.bmp
+description = This wheel has a slim width, but very large diameter.
+contact = slimwheel_traction
+passthru = slimwheel_collision
+resistance = .2
+grip = 1
+damagesounds = sounds\rubber_collision.wav,sounds\rubber_collision2.wav
+attachsound = sounds\cmp_wheels.wav
+standard = 1

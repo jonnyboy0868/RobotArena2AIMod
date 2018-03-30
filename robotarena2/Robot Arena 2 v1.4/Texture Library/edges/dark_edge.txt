@@ -1,0 +1,4 @@
+Filename: dark_edge.tga
+Preview: dark_preview.bmp
+Length ratio (world pixels per file pixel): .5
+Width (world pixels): 3

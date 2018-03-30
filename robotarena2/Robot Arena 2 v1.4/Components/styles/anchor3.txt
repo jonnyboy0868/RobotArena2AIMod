@@ -1,0 +1,10 @@
+name = Baseplate Anchor
+preview = anchor_preview.bmp
+dir = anchor
+model = anchor3.gmf
+type = extenders
+base = Component
+description = Use this anchor as a baseplate mounting point for extenders or other attachments.
+attachsound = sounds\cmp_generic.wav
+damageable = false
+standard = 1

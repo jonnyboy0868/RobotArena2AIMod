@@ -1,0 +1,14 @@
+name = Ice Pick
+preview = icepick_preview.bmp
+dir = icepick
+model = icepick2.gmf
+type = weapons
+base = Weapon
+description = Everyone loves a good icepick. Especially when it smashes the control board of your opponent!
+normal = false -1 0 0
+decal = pierce01.tga 0 0 -1 .5 .5 0
+attachsound = sounds\cmp_generic.wav
+damagesounds = sounds\high_metal_tink.wav
+concussion = .1
+piercing = .8
+standard = 1

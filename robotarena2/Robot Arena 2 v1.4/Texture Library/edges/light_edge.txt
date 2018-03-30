@@ -1,0 +1,4 @@
+Filename: light_edge.tga
+Preview: light_preview.bmp
+Length ratio (world pixels per file pixel): .5
+Width (world pixels): 3

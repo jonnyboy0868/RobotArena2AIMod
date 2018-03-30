@@ -1,0 +1,11 @@
+name = Nifty 6V Battery
+dir = battery2
+type = power
+base = Battery
+model = battery2.gmf
+preview = battery2_preview.bmp
+description = Compact and durable. Nifty is the official battery of the PowerBolt Championship.
+electotal = 24000
+elecmaxinoutrate = 400
+attachsound = sounds\cmp_battery.wav
+standard = 1

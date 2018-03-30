@@ -1,0 +1,12 @@
+name = Small Battery Pack
+preview = battpack_preview.bmp
+dir = battery_slimpack
+model = battpack1.gmf
+type = power
+base = Battery
+styles = Default
+description = This slim battery pack can easily fit into small bot designs, though does not offer a great deal of power.
+electotal = 7000
+elecmaxinoutrate = 100
+attachsound = sounds\cmp_battery2.wav
+standard = 1

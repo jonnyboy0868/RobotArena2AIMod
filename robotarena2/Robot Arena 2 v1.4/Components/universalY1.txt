@@ -1,0 +1,11 @@
+name = Y Connector
+preview = y_preview.bmp
+dir = universalY
+model = universalY1.gmf
+type = extenders
+base = Component
+passthru = y_collision
+styles = Default
+description = Branch a connection point using this Y-shaped connector.
+attachsound = sounds\cmp_generic.wav
+standard = 1

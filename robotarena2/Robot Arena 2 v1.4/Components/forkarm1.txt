@@ -1,0 +1,12 @@
+name = Forklift Arm
+preview = forkarm_preview.bmp
+dir = forkarm
+model = forkarm1.gmf
+type = extras
+base = Component
+passthru = fork_collision
+styles = Default
+description = Angled steel bracket, commonly used as the arm of a forklift, but suitable for other purposes as well.
+damagesounds = sounds\bracket_hit.wav
+attachsound = sounds\cmp_generic.wav
+standard = 1

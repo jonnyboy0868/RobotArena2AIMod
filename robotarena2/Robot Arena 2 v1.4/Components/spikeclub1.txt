@@ -1,0 +1,14 @@
+name = Spiked Club
+preview = spikeclub_preview.bmp
+dir = spikeclub
+model = spikeclub1.gmf
+type = weapons
+base = Weapon
+styles = Default
+description = This fear-inspiring spiked club is a replica of an ancient weapon. 
+damagesounds = sounds\low_clank.wav
+decal = double_slash.tga 0 0 1 .5 .5 0
+attachsound = sounds\cmp_generic.wav
+concussion = .5
+piercing = .5
+standard = 1

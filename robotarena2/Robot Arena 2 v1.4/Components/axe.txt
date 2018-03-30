@@ -1,0 +1,14 @@
+name = Axe Head
+dir = axe
+type = weapons
+base = Weapon
+model = axe.gmf
+preview = axe_preview.bmp
+description = The sharp edge on this axe can easily cut through metal if swung with enough force.
+damagesounds = sounds\metal_collision_light.wav
+normal = false -1 0 0
+decal = single_slash.tga 0 0 1 .5 .5 1
+attachsound = sounds\cmp_generic.wav
+concussion = .9
+piercing = .4
+standard = 1

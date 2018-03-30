@@ -1,0 +1,15 @@
+name = Fatboy Wheel
+preview = fatboy_preview.bmp
+dir = fatboys
+model = fatboy_wheel1.gmf
+type = mobility
+base = Wheel
+passthru = h_fatboy
+styles = Default
+description = These big, juicy wheels make for a nice ride.
+contact = wheel_traction
+resistance = .2
+grip = 1
+damagesounds = sounds\rubber_collision.wav,sounds\rubber_collision2.wav
+attachsound = sounds\cmp_wheels.wav
+standard = 1

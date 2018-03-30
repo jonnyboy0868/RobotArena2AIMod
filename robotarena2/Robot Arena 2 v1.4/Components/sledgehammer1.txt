@@ -1,0 +1,12 @@
+name = Sledge Hammer
+preview = sledgehammer_preview.bmp
+dir = sledgehammer
+model = sledgehammer1.gmf
+type = weapons
+base = Weapon
+styles = Default
+description = Heavy. Good for smash stuff.
+damagesounds = sounds\bowlingball_thud.wav
+decal = batter01.tga 0 0 1 .5 .5 0
+attachsound = sounds\cmp_generic.wav
+standard = 1

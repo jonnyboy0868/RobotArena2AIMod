@@ -1,0 +1,14 @@
+name = Mini wheel
+dir = miniwheel
+type = mobility
+base = Wheel
+model = miniwheel.gmf
+preview = miniwheel_preview.bmp
+description = Mini wheel is ideal for use with a small motor due to its limited diameter.
+passthru = miniwheel
+contact = wheel_traction
+resistance = .1
+grip = 1
+damagesounds = sounds\rubber_collision.wav,sounds\rubber_collision2.wav
+attachsound = sounds\cmp_wheels.wav
+standard = 1

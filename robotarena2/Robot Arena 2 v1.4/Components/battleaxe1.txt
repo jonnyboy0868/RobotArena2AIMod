@@ -1,0 +1,15 @@
+name = Battle Axe
+preview = battleaxe_preview.bmp
+dir = battleaxe
+model = battleaxe1.gmf
+type = weapons
+base = Weapon
+styles = Default
+description = Double sided war axe for ultimate terror.
+normal = true 1 0 0
+decal = single_slash.tga 0 0 1 .5 .5 1
+damagesounds = sounds\hammer_hit.wav
+attachsound = sounds\cmp_generic.wav
+concussion = .9
+piercing = .4
+standard = 1

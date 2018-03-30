@@ -1,0 +1,219 @@
+<html>
+<head>
+<title>Mechanics Tutorial</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="tutorials.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<p class="tutorial_title">Mechanics Tutorial</p>
+<p class="tutorial_body">Many of the components in Robot Arena 2 are fairly self-explanatory. 
+  An axe head is, well, an axe head. Swing that bad boy at something and delight 
+  in the damage it does. But how do you swing it? What is it attached to to make 
+  it into a weapon? You are really asking how to make things move in RA2. These 
+  questions can be answered by learning to use the components in the <i>Mechanics</i> 
+  category. Or more simply, motors and pistons.</p>
+<p class="tutorial_body"><img src="images/mechanics/motion_styles.gif" width="272" height="95" align="right">There 
+  are two main types of motion that you can use to make moveable parts on your 
+  robot. Things that have rotational movement (torque) around an axis, or things 
+  that have linear movement (force) along an axis. Your physics teacher may have 
+  more insight into the terminology and mathematics of motion, but for now it's 
+  enough to understand these two styles of movement. </p>
+<p class="tutorial_body">Even more simply, we can match components to these two 
+  motions. If you want something to rotate, you will use a <i>Motor</i>. If you 
+  want something to move back and forth, use a <i>Piston</i>. Motors and pistons 
+  are the bread and butter of motion in RA2. Let's go into more detail on each 
+  of these, and clarify some of the variations of each.</p>
+<p class="tutorial_heading">Motors</p>
+<p class="tutorial_body">As mentioned above, motors essentially &quot;spin&quot; 
+  things. All motors have rotating axles to which you can attach other objects. 
+  Some examples might be spinning wheels to make the robot move, or swinging a 
+  weapon, such as a hammer on the end of a pole. There are three subclasses of 
+  motors in RA2: <i>spin motors</i>, <i>burst motors</i>, and <i>servo motors</i>.</p>
+<table width="95%" border="1" cellspacing="0" cellpadding="3" bordercolor="#CCCCCC">
+  <tr>
+    <td><img src="images/mechanics/spinmotors.jpg" width="200" height="65"></td>
+    <td class="tutorial_body">A <b>Spin Motor</b> freely rotates any component 
+      attached to its axle. The motor can spin in two directions (clockwise and 
+      counter-clockwise) and has no starting or ending position, it just rotates 
+      continually when power is applied to it. </td>
+  </tr>
+  <tr>
+    <td><img src="images/mechanics/burstmotors.jpg" width="130" height="57"></td>
+    <td class="tutorial_body">A <b>Burst Motor</b> is like a spring-loaded device 
+      that slowly, but powerfully cocks the axle in a starting position and waits 
+      to be triggered. When it is triggered, the spring is released and the axle 
+      spins at very high torque to its ending position. The starting and ending 
+      positions can be set, as you will see later, but have a maximum separation 
+      that is less than 180 degrees. In other words, a burst motor can only swing 
+      an object in a partial arc, not in a complete circle. The motor is not bi-directional 
+      since it has a specific starting and ending position.</td>
+  </tr>
+  <tr>
+    <td><img src="images/mechanics/servomotors.jpg" width="70" height="53"></td>
+    <td class="tutorial_body">A <b>Servo Motor</b> is similar to a spin motor 
+      in that it can rotate continually in either the clockwise or counterclockwise 
+      directions. However, it moves at a slow, controlled pace and locks into 
+      position when stopped. The servo motor is useful when you want to carefully 
+      rotate an object, possibly stopping it at a specific location in its range 
+      of motion.</td>
+  </tr>
+</table>
+<p class="tutorial_body">Let's build a bot that uses a few of these motors to 
+  see how they work. This tutorial assumes that you have read the Basic tutorial 
+  and understand how to build a chassis and place components.</p>
+<p class="tutorial_subheading">Spin Motor Example</p>
+<p class="tutorial_body">Start with any style of chassis. We will just use a basic 
+  box for maximum simplicity. All of our motor examples require a battery and 
+  control board.</p>
+<p class="tutorial_body"><img src="images/mechanics/base_shape.jpg" width="200" height="200"></p>
+<p class="tutorial_body">In the mechanics category, pick the Z-Tek spin motor. 
+  If you read the mobility tutorial, you have used spin motors, but we'll do this 
+  one a little differently here. Before placing the component, rotate the small 
+  preview window (right-mouse drag in the view) so you can see the green attachment 
+  point on the back of the motor. Click it to select it. This means you will be 
+  placing the component based on that point. In this case, it will let us place 
+  the motor so that the axle faces up from the baseplate. </p>
+<p class="tutorial_body">Position the motor on the baseplate, but don't drop it 
+  yet. Use your CTRL key modifier to raise the motor up towards the top of the 
+  chassis so that the axle sticks out of the top as shown in the picture. It may 
+  take some maneuvering with your view to get it positioned just right. We really 
+  don't have to do this to explain a spin motor, but it helps to practice some 
+  alternate placements other than the normal position that the motor defaults 
+  to.</p>
+<p class="tutorial_body"><img src="images/mechanics/ztek_placed.jpg" width="400" height="216"> 
+</p>
+<p class="tutorial_body">Now we need something for this motor to spin. In the 
+  extenders category, pick one of the standard round extenders and select a longer 
+  length than the default. The style dropdown menu gives you options for this. 
+  My example uses an 80 cm extender. Again, we will use the green attachment boxes 
+  in the preview window to select one of the side attachment points instead of 
+  the default end point. After picking the length and side attachment point, place 
+  the component on the motor axle. It should look something like the picture shown. 
+</p>
+<p class="tutorial_note">You can optionally SHIFT rotate the extender when placing 
+  it if you would rather its starting position be another direction instead of 
+  over top of the chassis. One example of this is if the weapon you plan to attach 
+  would collide with the chassis in the position shown, but would have enough 
+  clearance for placement if the extender tip were out in the open area to the 
+  left. </p>
+<p class="tutorial_body"><img src="images/mechanics/extender.jpg" width="400" height="215"><br clear=left>
+</p>
+<p class="tutorial_body">Finally, add a weapon to the end of the extender bar. 
+  I chose a mace for my example.</p>
+<p class="tutorial_body"><img src="images/mechanics/mace.jpg" width="400" height="220"></p>
+<p class="tutorial_body">OK. The bot is built, now it just needs to be wired. 
+  In other tutorials we have only used analog controls for driving. Let's use 
+  a button control here. If you remember from the Basic tutorial, button controls 
+  are ON when the input key is pressed and OFF when the input is released. In 
+  other words, this motor will only be powered while you are holding a key or 
+  joystick button down. (Of course, it may continue to free-spin even without 
+  power.) Give the button control a name and assign an input key to it.</p>
+<p class="tutorial_body"><img src="images/mechanics/button_control.jpg" width="200" height="207"><img src="images/mechanics/spin_E.jpg" width="300" height="191" hspace="20"></p>
+<p class="tutorial_body">With the control selected in your controller grid, click 
+  on the spin motor. You will have an option to wire this motor to spin either 
+  clockwise or counter-clockwise when the button is pressed. Pick either one.</p>
+<p class="tutorial_body"><img src="images/mechanics/ztek_clockwise.jpg" width="300" height="210"></p>
+<p class="tutorial_body">OK. Try that sucker out. You can press the key right 
+  here in the workshop view to see the weapon spin, or you can go into the test 
+  garage to see it. My example ended up being pretty wobbly since the motor is 
+  spinning a lopsided object. You'll discover that spinning weapons like this 
+  often need to be balanced so that there is similar weight on either side of 
+  the bot.</p>
+<p class="tutorial_subheading">Burst Motor Example</p>
+<p class="tutorial_body">Using the same basic chassis/battery/controlboard. Let's 
+  try a burst motor. From the mechanics category, place a DDT Burst Motor as shown 
+  below. Then attach an extender and a fireman's axe to it.</p>
+<p class="tutorial_body"><img src="images/mechanics/burst_placed.jpg" width="180" height="180"><img src="images/mechanics/burst_extender.jpg" width="180" height="180" hspace="10"><img src="images/mechanics/axe.jpg" width="180" height="180"></p>
+<p class="tutorial_body">Now, here's the extra step that burst motors require. 
+  In your 3D view, click on the burst motor you placed. You will see that you 
+  now have slider controls to set starting and ending positions for the motor. 
+  Adjust the two sliders until the starting position puts the axe up above the 
+  chassis, and the ending position puts the axe down more at ground level (imagine 
+  smashing your opponent there!).</p>
+<p class="tutorial_body"><img src="images/mechanics/range_start.jpg" width="400" height="218"></p>
+<p class="tutorial_body"><img src="images/mechanics/range_end.jpg" width="400" height="217"></p>
+<p class="tutorial_body">With that finished, you just need to wire it. You can 
+  use a button control just like the first example. You have only one option for 
+  wiring, called &quot;Fire&quot; which triggers the burst motor. After wiring 
+  it. Try pressing the input key to watch the axe swing menacingly. Test it out 
+  in the garage if you like.</p>
+<p class="tutorial_subheading">Servo Motor</p>
+<p class="tutorial_body">Because the servo motor is so similar to the spin motor, 
+  we won't do an example here. Follow the same steps as you did for the spin motor, 
+  but use the servo motor component. You may want to wire it with an analog control 
+  to see it work bi-directionally.</p>
+<hr noshade>
+<p class="tutorial_heading">Pistons</p>
+<p class="tutorial_body">Pistons move in a linear direction along a limited range 
+  of motion. You might think of it as moving &quot;in&quot; or &quot;out&quot; 
+  until it reaches a limit. Pistons come in various lengths so you can pick the 
+  best size for your robot. Like motors, pistons have subclasses:</p>
+<table width="95%" border="1" cellspacing="0" cellpadding="3" bordercolor="#CCCCCC">
+  <tr> 
+    <td><img src="images/mechanics/burst_preview.jpg" width="70" height="53"></td>
+    <td class="tutorial_body">A <b>Burst Piston</b> starts in a retracted position. 
+      When triggered, it extends to its outward limit very forcefully, then slowly 
+      retracts back to its starting position.</td>
+  </tr>
+  <tr> 
+    <td><img src="images/mechanics/servopiston_preview.jpg" width="170" height="54"></td>
+    <td class="tutorial_body">A <b>Servo Piston</b> can accept two wiring input 
+      signals, one to extend and one to retract. The piston slowly moves in or 
+      out and can be stopped and locked at any position in between the two limits.</td>
+  </tr>
+</table>
+<p class="tutorial_subheading">Burst Piston Example</p>
+<p class="tutorial_body">We will build a few bots to demonstrate the use of pistons. 
+  Start with another simple chassis. In RA2, pistons are powered pneumatically, 
+  which means you need an air tank instead of a battery. If you have a bot using 
+  both motors and pistons, obviously, you will need both a battery and an air 
+  tank.</p>
+<p class="tutorial_body"><img src="images/mechanics/piston_base.jpg" width="200" height="200"></p>
+<p class="tutorial_body">From the mechanics category, select the burst piston. 
+  You can optionally pick a length style. I chose the 80 cm version here. Place 
+  it in the chassis so that the shaft of the piston is passing through the wall 
+  of the chassis. Like a motor, the body of this component cannot pass through 
+  the walls of the chassis, but the moveable shaft can.</p>
+<p class="tutorial_body"><img src="images/mechanics/bp_placed.jpg" width="400" height="217"></p>
+<p class="tutorial_body">Now pick a weapon to put on the end of the piston shaft. 
+  I chose the pointy tip, but many weapons might be suitable. This will be a thrusting 
+  type of weapon.</p>
+<p class="tutorial_body"><img src="images/mechanics/bp_pointy.jpg" width="400" height="218"></p>
+<p class="tutorial_body">All that's left is to wire the piston. Drag a button 
+  control onto your wiring controller. Give it a name and assign a key to it. 
+  Then select the piston in your 3D view. The only wiring option is for &quot;Fire.&quot;</p>
+<p class="tutorial_body"><img src="images/mechanics/bp_fire.jpg" width="300" height="210"></p>
+<p class="tutorial_body">Go ahead and try it out. The piston jabs outward quickly, 
+  then retracts.</p>
+<p class="tutorial_subheading">Servo Piston Example</p>
+<p class="tutorial_body">Start with a base chassis again with only a battery and 
+  air tank. For this example we will use the &quot;Linear Actuator&quot; component. 
+  This is simply a servo piston that has a side-pointing slider mount. The other 
+  servo piston has an end-facing mount just like the burst piston.</p>
+<p class="tutorial_body">Before attaching the linear actuator, select its side 
+  attachment point in the preview window as shown below. Then place the component 
+  so that the slide mount faces the side of the chassis. I picked the 100 cm length 
+  for my example.</p>
+<p class="tutorial_body"><img src="images/mechanics/linact_placed.jpg" width="400" height="218"></p>
+<p class="tutorial_body">Extender bars are one of the components allowed to pass 
+  through the walls of the chassis. Since the linear actuator is inside the chassis, 
+  we will use an extender to mount a moveable object externally. Put a 20 cm extender 
+  on the linear actuator slide mount.</p>
+<p class="tutorial_body"><img src="images/mechanics/linact_extender.jpg" width="400" height="215"></p>
+<p class="tutorial_body">Now let's put something on the end of the extender. For 
+  my example, I picked the hammer head.</p>
+<p class="tutorial_body"><img src="images/mechanics/hammer.jpg" width="400" height="218"></p>
+<p class="tutorial_body">Now let's wire the servo piston (linear actuator). We 
+  will use an analog control since the piston can be wired in two directions.</p>
+<p class="tutorial_body"><img src="images/mechanics/linact_wiring.jpg" width="400" height="209"></p>
+<p class="tutorial_body">After placing the control on your controller grid and 
+  assigning keys to it, click the linear actuator and wire positive to &quot;extend&quot; 
+  and negative to &quot;retract.&quot;</p>
+<p class="tutorial_body"><img src="images/mechanics/linact_extretract.jpg" width="300" height="210"></p>
+<p class="tutorial_body">Try it out. The hammer head moves in and out as you press 
+  the input keys. Of course, this isn't a particularly useful arrangement of components, 
+  but you can think of more effective uses for the servo piston on your own.</p>
+<p class="tutorial_body"><a href="Tutorials_index.htm">Back to Tutorials Index</a></p>
+</body>
+</html>

@@ -1,0 +1,16 @@
+name = Linear Actuator
+dir = linear_actuator
+type = mechanics
+base = ServoPiston
+model = linear_actuator1.gmf
+preview = linearact_preview.bmp
+description = This linear actuator is like the servo piston, but its mount slides along the cylinder allowing a different style of placement. Wire a button or analog control to this component.
+passthru = slider_collision
+attaching = slider
+prismatic = body, slider, 0, 0, 1, 0, -.5, 0.4
+airmaxinoutrate = -80
+power = 1 40
+styles = 60 cm, linear_actuator2.txt, 80 cm, linear_actuator3.txt, 100 cm, linear_actuator4.txt, 120 cm
+sort = 41
+attachsound = sounds\cmp_generic.wav
+standard = 1

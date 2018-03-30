@@ -1,0 +1,4 @@
+Filename: rim_line.tga
+Preview: rim_line_preview.bmp
+Length ratio (world pixels per file pixel): .25
+Width (world pixels): 4

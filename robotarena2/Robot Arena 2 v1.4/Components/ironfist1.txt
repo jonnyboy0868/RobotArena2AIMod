@@ -1,0 +1,11 @@
+name = Iron Fist
+preview = ironfist_preview.bmp
+dir = ironfist
+model = ironfist1.gmf
+type = weapons
+base = Weapon
+styles = Default
+description = This aint no boxing glove. An Iron Fist in the jaw will knock the brains right out of your head. (Discovered by Radio F)
+hidden = 0
+decal = batter02.tga 1 0 0 .5 .5 0
+standard = 1

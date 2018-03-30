@@ -1,0 +1,16 @@
+name = Burst Piston
+preview = burstpiston_preview.bmp
+dir = burstpiston
+model = burstpiston3.gmf
+type = mechanics
+base = BurstPiston
+master = body
+passthru = shaft_collision
+attaching = shaft
+prismatic = body, shaft, 0, 0, 1, 0.0, -0.86, 0.2
+description = A pneumatic burst piston fires its shaft at a high velocity, followed by a retraction to its original position. Available in several cylinder lengths. Wire a button to trigger it.
+airmaxinoutrate = -100
+power = 60 100
+firesound = sounds\air_trigger.wav
+attachsound = sounds\cmp_airtank.wav
+standard = 1

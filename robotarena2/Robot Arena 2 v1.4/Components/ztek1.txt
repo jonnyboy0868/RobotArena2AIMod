@@ -1,0 +1,17 @@
+name = Z-Tek Motor
+preview = ztek_preview.bmp
+dir = ztek
+model = ztek1.gmf
+type = mechanics
+base = SpinMotor
+master = etek
+passthru = axle_collision
+attaching = axle
+description = The Z-Tek motor is a high-powered spin motor designed for heavy duty drive systems and other high-torque, high-velocity applications. This motor will draw a lot of electricity, so be sure your bot has the battery power to support it. Wire with analog, switch, or button controls.
+styles = Standard, ztek2.txt, High Power
+power = 36 24
+elecMaxInOutRate = -200
+sort = 3
+motorsound = sounds\bigmotor_loop.wav
+attachsound = sounds\cmp_generic.wav
+standard = 1

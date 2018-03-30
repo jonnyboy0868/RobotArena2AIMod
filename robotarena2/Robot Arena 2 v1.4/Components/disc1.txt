@@ -1,0 +1,13 @@
+name = Disc
+preview = disc_preview.bmp
+dir = disc
+model = disc1.gmf
+type = extenders
+base = Component
+passthru = disc_collision
+styles = 60 cm diameter, disc2.txt, 80 cm diameter, disc3.txt, 100 cm diameter, disc4.txt, 120 cm diameter, disc5.txt, 140 cm diameter
+description = This disc has several mounting positions for spinning weapons or other devices.
+hitpoints = 500
+fracture = 20
+attachsound = sounds\cmp_generic.wav
+standard = 1

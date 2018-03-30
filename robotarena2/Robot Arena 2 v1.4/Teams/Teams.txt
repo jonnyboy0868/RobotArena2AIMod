@@ -1,0 +1,387 @@
+1 
+
+
+
+Robots:
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+10000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0
+0
+0
+testing 
+this is for A.i. Testing
+Teams\blueprint.bmp
+Robots: 0 1 2 3 4
+Robot In Event: -1
+4
+5
+1
+37
+55
+17
+15
+13486
+28.6067
+true
+16
+UI\teamhq\events\trophies\Large Plaque.tga
+UI\teamhq\events\trophies\Gold Cup Trophy.tga
+UI\teamhq\events\trophies\Silver Cup Trophy.tga
+UI\teamhq\events\trophies\Spike Trophy.tga
+UI\teamhq\events\trophies\Gear Trophy.tga
+UI\teamhq\events\trophies\Silver Cup Trophy.tga
+teamhq\golden_sawblade.tga
+UI\teamhq\events\trophies\Square Plaque.tga
+UI\teamhq\events\trophies\Gold Cup Trophy.tga
+UI\teamhq\events\trophies\Silver Medal.tga
+UI\teamhq\events\trophies\Large Plaque.tga
+UI\teamhq\events\trophies\Wrench Trophy.tga
+UI\teamhq\events\trophies\Wrench Trophy.tga
+UI\teamhq\events\trophies\Spike Trophy.tga
+UI\teamhq\events\trophies\Gold Medal.tga
+UI\teamhq\events\trophies\Masters Trophy.tga
+true
+15 23 22 20 13 12 5 10 24 
+1
+22
+-1
+0 0 80 0 0 0 0 0 160 0 80 80 0 0 0 
+10
+10
+74
+
+
+
+Robots:
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+10000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0
+0
+0
+
+
+
+Robots:
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+10000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0
+0
+0
+
+
+
+Robots:
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+10000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0
+0
+0
+
+
+
+Robots:
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+10000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0
+0
+0
+
+
+
+Robots:
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+10000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0
+0
+0
+
+
+
+Robots:
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+10000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0
+0
+0
+
+
+
+Robots:
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+10000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0
+0
+0
+
+
+
+Robots:
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+10000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0
+0
+0
+
+
+
+Robots:
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+10000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0
+0
+0
+
+
+
+Robots:
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+10000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0
+0
+0
+
+
+
+Robots:
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+10000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0
+0
+0
+
+
+
+Robots:
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+10000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0
+0
+0
+
+
+
+Robots:
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+10000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0
+0
+0
+
+
+
+Robots:
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+10000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0
+0
+0

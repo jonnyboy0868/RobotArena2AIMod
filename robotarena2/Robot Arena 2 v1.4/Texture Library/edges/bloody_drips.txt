@@ -1,0 +1,4 @@
+Filename: bloody_drips.tga
+Preview: bloody_preview.bmp
+Length ratio (world pixels per file pixel): .02
+Width (world pixels): 24

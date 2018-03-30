@@ -1,0 +1,17 @@
+name = Red Bird Spin Motor
+preview = redbird_preview.bmp
+dir = redbird
+model = redbird1.gmf
+type = mechanics
+base = SpinMotor
+master = motor
+passthru = axle_collision
+attaching = axle
+styles = Default
+description = The RedBird is a reliable spin motor with a free-rotating spindle. Average torque and maximum rotational velocity. Can be wired using analog, switch, or button controls.
+elecMaxInOutRate = -140
+power = 26 18
+sort = 1
+motorsound = sounds\motorloop.wav
+attachsound = sounds\cmp_generic.wav
+standard = 1

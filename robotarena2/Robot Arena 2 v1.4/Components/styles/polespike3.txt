@@ -1,0 +1,15 @@
+name = Pole Spike
+preview = polespike_preview.bmp
+dir = polespike
+model = polespike3.gmf
+type = weapons
+base = Weapon
+passthru = pole_collision
+description = All-purpose sharpened steel pole. Several lengths. 
+damagesounds = sounds\high_metal_tink.wav
+normal = false -1 0 0
+decal = pierce01.tga 0 0 1 .5 .5 0
+attachsound = sounds\cmp_generic.wav
+concussion = 0
+piercing = 1
+standard = 1

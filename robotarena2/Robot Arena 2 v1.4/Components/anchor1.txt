@@ -1,0 +1,11 @@
+name = Baseplate Anchor
+preview = anchor_preview.bmp
+dir = anchor
+model = anchor1.gmf
+type = extenders
+base = Component
+styles = 0 degrees, anchor2.txt, 22.5 degrees, anchor3.txt, 45 degrees, anchor4.txt, 67.5 degrees, anchor5.txt, 90 degrees
+description = Use this anchor as a baseplate mounting point for extenders or other attachments.
+attachsound = sounds\cmp_generic.wav
+damageable = false
+standard = 1

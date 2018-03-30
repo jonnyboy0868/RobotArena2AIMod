@@ -1,0 +1,14 @@
+name = Powered Steering Unit
+preview = carsteering_preview.bmp
+dir = carsteering
+model = carsteering3.gmf
+type = mechanics
+base = Steering
+master = rbgroup
+passthru = axlecollision1, axlecollision2, hub1, hub2
+description = The powered steering unit has pivoting rotors for car-like steering. Because it is powered, you can also use it as a drive motor. Wire an analog control for forward and reverse torque, and another one for left and right pivoting.
+power = 14
+elecMaxInOutRate = -200
+motorsound = sounds\motorloop.wav
+attachsound = sounds\cmp_generic.wav
+standard = 1

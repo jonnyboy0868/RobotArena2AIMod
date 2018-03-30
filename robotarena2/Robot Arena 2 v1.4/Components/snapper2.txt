@@ -1,0 +1,17 @@
+name = Snapper2 Burst Motor
+preview = snapper2_preview.bmp
+dir = snapper2
+model = snapper2.gmf
+type = mechanics
+base = BurstMotor
+master = bmotor_body
+passthru = axle_collision
+styles = Default
+description = This peppy little burst motor is compact but packs a good punch. Like other burst motors, you need to select it and set a start and end range for its swing arc. Wire a button control as its trigger.
+elecMaxInOutRate = -300
+burst = 0 40 60
+power = 4 25
+sort = 11
+firesound = sounds\burst_trigger.wav
+attachsound = sounds\cmp_generic.wav
+standard = 1

@@ -1,0 +1,14 @@
+name = Rubber wheel
+dir = wheel1
+type = mobility
+base = Wheel
+model = wheel1.gmf
+preview = wheel1_preview.bmp
+description = This compact wheel has a thin rubber grip and polymer core.
+passthru = wheel1
+contact = wheel_traction
+resistance = .2
+grip = 1
+damagesounds = sounds\rubber_collision.wav,sounds\rubber_collision2.wav
+attachsound = sounds\cmp_wheels.wav
+standard = 1

@@ -1,0 +1,14 @@
+name = SlipperBottom Wheels
+dir = wheel_slipperbottom
+type = mobility
+base = Wheel
+model = slipperbottom.gmf
+preview = slipperbottom_preview.bmp
+passthru = whitewheel_collision
+description = Rubber wheelchair wheels with GrannyGuard (TM) traction.
+contact = whitewheel_traction
+resistance = .2
+grip = 1
+damagesounds = sounds\rubber_collision.wav,sounds\rubber_collision2.wav
+attachsound = sounds\cmp_wheels.wav
+standard = 1

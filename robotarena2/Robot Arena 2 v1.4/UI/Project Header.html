@@ -1,0 +1,1717 @@
+<HTML><BODY><PRE>
+<FONT COLOR=#000080 SIZE=4>.\</FONT>
+
+	<FONT COLOR=#008000 SIZE=4>testfile.gib</FONT> (root = "" [Background])
+
+	<FONT COLOR=#000080 SIZE=4>common</FONT>
+
+		<FONT COLOR=#008000 SIZE=4>audio_options.gib</FONT> (root = "audio options group" [Group])
+
+			"effects volume slider"	[Slider]
+			use to adjust effects volume
+
+			"music volume slider"	[Slider]
+			use to adjust music volume
+
+			"effects checkbox"	[CheckBox]
+			turn on or off sound effects
+
+			"music checkbox"	[CheckBox]
+			turn on or off UI music
+
+		<FONT COLOR=#008000 SIZE=4>bottomnav.gib</FONT> (root = "common buts" [Group])
+
+			"Options button"	[Button]
+			click to bring up options dialog
+
+			"MainMenu button"	[Button]
+			click to return to main menu
+
+			"Help button"	[Button]
+			click to bring up appropriate help for this screen
+
+		<FONT COLOR=#008000 SIZE=4>bottomnav_main.gib</FONT> (root = "common buts" [Group])
+
+			"Options button"	[Button]
+			click to bring up options dialog
+
+			"credits button"	[Button]
+			click to view credits.gib
+
+			"Quit button"	[Button]
+			click to quit
+
+		<FONT COLOR=#008000 SIZE=4>credits.gib</FONT> (root = "credits win" [Window])
+
+			"credits win"	[Window]
+			the infamous credits window
+
+			"close button"	[Button]
+			click to close window
+
+		<FONT COLOR=#008000 SIZE=4>okcancel.gib</FONT> (root = "ok cancel grp" [Group])
+
+		<FONT COLOR=#008000 SIZE=4>options.gib</FONT> (root = "options win" [Window])
+
+			"option category"	[OptionGroup]
+			buttons in this optgroup set which options are shown in the content area
+
+			"video tab"	[CheckBox]
+			click to load video_options.gib into 'options content group'
+
+			"audio tab"	[CheckBox]
+			click to load audio_options.gib into 'options content group'
+
+			"ok button"	[Button]
+			click to close options window
+
+			"options content group"	[Group]
+			load video or audio options gibs here
+
+			"cancel button"	[Button]
+			click to close options window but NOT apply changes
+
+		<FONT COLOR=#008000 SIZE=4>video_options.gib</FONT> (root = "video options group" [Group])
+
+			"detail optiongrp"	[OptionGroup]
+			use to select low or high graphic detail
+
+			"detail low checkbox"	[CheckBox]
+			select low graphic detail
+
+			"detail high checkbox"	[CheckBox]
+			select high graphic detail
+
+			"effects optiongrp"	[OptionGroup]
+			use to turn on or off some effects
+
+			"effects off checkbox"	[CheckBox]
+			select effects off
+
+			"effects on checkbox"	[CheckBox]
+			select effects on
+
+			"resolution dropdown"	[DropDown]
+			fill with screen resolution options
+
+			"fullscreen checkbox"	[CheckBox]
+			checked for fullscreen, unchecked for windowed
+
+		<FONT COLOR=#008000 SIZE=4>messagebox.gib</FONT> (root = "message box" [Window])
+
+			"no button"	[Button]
+			user responds No
+
+			"yes button"	[Button]
+			user responds Yes
+
+			"cancel button"	[Button]
+			user responds Yes
+
+			"ok button"	[Button]
+			user responds Yes
+
+		<FONT COLOR=#008000 SIZE=4>ingame_dialog.gib</FONT> (root = "in game popup win" [Window])
+
+			"resume button"	[Button]
+			click to close window and resume game
+
+			"end match button"	[Button]
+			click to end the match and return to multiplayer/exhibition screen (show confirmation dialog)
+
+			"options button"	[Button]
+			click to bring up video/audio options
+
+			"quit button"	[Button]
+			click to quit the game (confirmation dialog first)
+
+		<FONT COLOR=#008000 SIZE=4>gamewindow.gib</FONT> (root = "Game Window" [Window])
+
+			"Game Window"	[Window]
+			window used for a match
+
+			"player3 status"	[Group]
+			load 'statusmeters.gib' here
+
+			"player4 status"	[Group]
+			load 'statusmeters.gib' here
+
+			"time group"	[Group]
+			show 'time group' when match begins
+
+			"time"	[TextBox]
+			time counts down here
+
+			"chat group"	[Group]
+			show/hide this group using the "chat" key (backslash?)
+
+			"chat entry"	[TextBox]
+			player enters chat here
+
+			"chat displaybox"	[DisplayBox]
+			display a few lines of chats here and clear after a few seconds. (use <text font fg_mcn14>)
+
+			"camera textbox"	[TextBox]
+			display camera name here
+
+			"player1 status"	[Group]
+			load 'statusmeters.gib' here
+
+			"player2 status"	[Group]
+			load 'statusmeters.gib' here
+
+			"countdown group"	[Group]
+			show 'countdown group' when match is ready to begin, then hide during match
+
+			"count number"	[TextBox]
+			show 3..2..1.. in this text box
+
+			"skip group"	[Group]
+			hide skip group after the intro is over or player has skipped it.
+
+			"skip button"	[Button]
+			click to skip past the announcer intro
+
+		<FONT COLOR=#008000 SIZE=4>statusmeters.gib</FONT> (root = "" [Background])
+
+			"name"	[TextBox]
+			name of this bot
+
+			"points"	[TextBox]
+			number of points scored
+
+		<FONT COLOR=#008000 SIZE=4>progress.gib</FONT> (root = "progress window" [Window])
+
+			"progress window"	[Window]
+			main window to load
+
+			"caption bar"	[TextBox]
+			put progress caption here
+
+			"progress frame"	[Group]
+			'progress bar' img child can have its width set from 0 to 180
+
+		<FONT COLOR=#008000 SIZE=4>result_cell.gib</FONT> (root = "result group" [Group])
+
+			"result group"	[Group]
+			load group into result slots; set 'team logo' and 'bot preview' images as well as other noted gui items
+
+			"points"	[TextBox]
+			display the bot's total points here
+
+			"immobilized text"	[TextBox]
+			hide this unless the bot was immobilized during the match
+
+			"winner text"	[TextBox]
+			show this for the bot(s) who win this match or round
+
+			"bot name"	[TextBox]
+			display bot name
+
+			"team name"	[TextBox]
+			display team name
+
+		<FONT COLOR=#008000 SIZE=4>matchresults.gib</FONT> (root = "match results window" [Window])
+
+			"match results window"	[Window]
+			when time runs out, or winner is decided, replace the game window/status bars with this match results window (drawn over top of 3D arena view)
+
+			"result slot 1"	[Group]
+			load result_cell.gib into this slot with appropriate data
+
+			"result slot 2"	[Group]
+			load result_cell.gib into this slot with appropriate data
+
+			"result slot 3"	[Group]
+			load result_cell.gib into this slot with appropriate data
+
+			"result slot 4"	[Group]
+			load result_cell.gib into this slot with appropriate data
+
+			"continue button"	[Button]
+			click to return to exhibition setup, MP prematch, or next round of event
+
+		<FONT COLOR=#008000 SIZE=4>controls_reminder.gib</FONT> (root = "controls reminder" [Window])
+
+			"control grid"	[Grid]
+			fill grid with controls like in the wiring screen
+
+			"bot name"	[TextBox]
+			display robot name here
+
+		<FONT COLOR=#008000 SIZE=4>loading.gib</FONT> (root = "loading window" [Window])
+
+			"loading window"	[Window]
+			main window to load
+
+			"caption bar"	[TextBox]
+			says "loading", change if needed
+
+		<FONT COLOR=#008000 SIZE=4>countdown.gib</FONT> (root = "" [Background])
+
+			"countdown group"	[Group]
+			show 'countdown group' when match is ready to begin, then hide during match
+
+			"count number"	[TextBox]
+			show 3..2..1.. in this text box
+
+		<FONT COLOR=#008000 SIZE=4>immobility_countdown.gib</FONT> (root = "immobility countdown group" [Group])
+
+			"immobile countdown"	[TextBox]
+			show numbers counting down
+
+		<FONT COLOR=#008000 SIZE=4>skipintro.gib</FONT> (root = "skip window" [Window])
+
+	<FONT COLOR=#000080 SIZE=4>mainmenu</FONT>
+
+		<FONT COLOR=#008000 SIZE=4>mainmenu.gib</FONT> (root = "Main Menu Win" [Window])
+
+			"exhibition button"	[Button]
+			link to exhibition setup
+
+			"Team HQ button"	[Button]
+			link to team HQ
+
+			"Multiplayer button"	[Button]
+			link to multiplayer
+
+			"Options button"	[Button]
+			click to bring up options dialog
+
+			"credits button"	[Button]
+			click to view credits.gib
+
+			"Quit button"	[Button]
+			click to quit
+
+	<FONT COLOR=#000080 SIZE=4>help</FONT>
+
+		<FONT COLOR=#008000 SIZE=4>help_selectteam.gib</FONT> (root = "select team help group" [Group])
+
+		<FONT COLOR=#008000 SIZE=4>helpframe.gib</FONT> (root = "help window" [Window])
+
+			"close button"	[Button]
+			user responds Yes
+
+			"help content group"	[Group]
+			load various help gibs into this group
+
+		<FONT COLOR=#008000 SIZE=4>help_exhibition.gib</FONT> (root = "exhibition help group" [Group])
+
+		<FONT COLOR=#008000 SIZE=4>help_multiplayer.gib</FONT> (root = "multiplayer help group" [Group])
+
+		<FONT COLOR=#008000 SIZE=4>help_multicreate.gib</FONT> (root = "multiplayer create help group" [Group])
+
+		<FONT COLOR=#008000 SIZE=4>help_multiprematch.gib</FONT> (root = "multiplayer prematch help group" [Group])
+
+		<FONT COLOR=#008000 SIZE=4>help_teamhq.gib</FONT> (root = "TeamHQ help group" [Group])
+
+		<FONT COLOR=#008000 SIZE=4>help_eventbracket.gib</FONT> (root = "event bracket help group" [Group])
+
+		<FONT COLOR=#008000 SIZE=4>help_repairs.gib</FONT> (root = "repairs help group" [Group])
+
+		<FONT COLOR=#008000 SIZE=4>help_ws_overview.gib</FONT> (root = "ws overview help group" [Group])
+
+		<FONT COLOR=#008000 SIZE=4>help_ws_chassis.gib</FONT> (root = "ws chassis help group" [Group])
+
+		<FONT COLOR=#008000 SIZE=4>help_ws_armor.gib</FONT> (root = "ws armor help group" [Group])
+
+		<FONT COLOR=#008000 SIZE=4>help_ws_components.gib</FONT> (root = "ws components help group" [Group])
+
+		<FONT COLOR=#008000 SIZE=4>help_ws_wiring.gib</FONT> (root = "ws wiring help group" [Group])
+
+		<FONT COLOR=#008000 SIZE=4>help_ws_paintshop.gib</FONT> (root = "ws paintshop help group" [Group])
+
+		<FONT COLOR=#008000 SIZE=4>help_ws_testrobot.gib</FONT> (root = "ws testrobot help group" [Group])
+
+	<FONT COLOR=#000080 SIZE=4>botlab</FONT>
+
+		<FONT COLOR=#008000 SIZE=4>botlabwin.gib</FONT> (root = "botlab win" [Window])
+
+			"overview button"	[CheckBox]
+			click to show 3dview.gib and overview.gib
+
+			"chassis button"	[CheckBox]
+			click to show 3dview.gib and chassis.gib
+
+			"components button"	[CheckBox]
+			click to show 3dview.gib and components.gib
+
+			"wiring button"	[CheckBox]
+			click to show 3dview.gib and wiring.gib
+
+			"paintshop button"	[CheckBox]
+			go to chassis appearance effects
+
+			"test robot button"	[CheckBox]
+			click to show testarena.gib
+
+			"back button"	[Button]
+			click to return to HQ
+
+			"content slot"	[Group]
+			load stuff into this slot
+
+			"Options button"	[Button]
+			click to bring up options dialog
+
+			"MainMenu button"	[Button]
+			click to return to main menu
+
+			"Help button"	[Button]
+			click to bring up appropriate help for this screen
+
+		<FONT COLOR=#008000 SIZE=4>chassis.gib</FONT> (root = "chassis intro split" [SplitFrame])
+
+			"chassis intro split"	[SplitFrame]
+			load this into content slot
+
+			"3d placeholder"	[Placeholder]
+			common 3d view for various areas of botlab
+
+			"structure design button"	[Button]
+			click to go to chassis step 1 (may want to pop up warning dialog if a chassis was already designed)
+
+			"armor button"	[Button]
+			click to load ch_armor.gib into 'right content slot'
+
+		<FONT COLOR=#008000 SIZE=4>chassis_structure1.gib</FONT> (root = "chassis split" [SplitFrame])
+
+			"chassis split"	[SplitFrame]
+			step 1 of the chassis creation process
+
+			"Editing Area"	[Placeholder]
+			Placeholder for chassis outline editing.
+
+			"clear outline button"	[Button]
+			click to erase the outline
+
+			"drawstyle optiongroup"	[OptionGroup]
+			optiongroup to choose style of drawing (freeform, circle, rectangle)
+
+			"freeform checkbox"	[CheckBox]
+			select to plot points manually
+
+			"circle checkbox"	[CheckBox]
+			select to create a circle
+
+			"rectangle checkbox"	[CheckBox]
+			select to create a rectangle
+
+			"radius slider"	[Slider]
+			set radius of circle
+
+			"length slider"	[Slider]
+			set length of rectangle
+
+			"width slider"	[Slider]
+			set width of rectangle
+
+		<FONT COLOR=#008000 SIZE=4>chassis_structure2.gib</FONT> (root = "chassis split" [SplitFrame])
+
+			"chassis split"	[SplitFrame]
+			step 2 of the chassis creation process
+
+			"Editing Area"	[Placeholder]
+			Placeholder for chassis outline editing.
+
+			"3d view placeholder"	[Placeholder]
+			show extruded model here
+
+			"height slider"	[Slider]
+			adjust height of extrusion
+
+		<FONT COLOR=#008000 SIZE=4>ch_stepbuttons.gib</FONT> (root = "steps and snap group" [Group])
+
+			"snap checkbox"	[CheckBox]
+			click to set snap on or off
+
+			"finished button"	[Button]
+			click to complete chassis shape
+
+			"steps option group"	[OptionGroup]
+			option group with the 2 step buttons
+
+			"step 1 button"	[CheckBox]
+			step 1 of chassis outline
+
+			"step 2 button"	[CheckBox]
+			step 2 (extrude, top outline)
+
+		<FONT COLOR=#008000 SIZE=4>components.gib</FONT> (root = "components split" [SplitFrame])
+
+			"components split"	[SplitFrame]
+			load this into content slot
+
+			"3d component placeholder"	[Placeholder]
+			3d view for component placement
+
+			"mouse instructions grp"	[Group]
+			mouse instruction tip. Needs more thought.
+
+			"tips group"	[Group]
+			temporary tip to show using shift
+
+			"remove button"	[Button]
+			click to remove a selected component
+
+			"category optiongroup"	[OptionGroup]
+			grid is filtered based on the category selected in this optiongroup
+
+			"power button"	[CheckBox]
+			click to show power components in grid
+
+			"extenders button"	[CheckBox]
+			click to show extenders components in grid
+
+			"mechanics button"	[CheckBox]
+			click to show motors and pistons in grid
+
+			"mobility button"	[CheckBox]
+			click to show wheels and mobility in grid
+
+			"weapons button"	[CheckBox]
+			click to show weapons in grid
+
+			"extras button"	[CheckBox]
+			click to display extras components in grid
+
+			"components grid"	[Grid]
+			fill with components in the current category, click to show preview
+
+			"component content group"	[Group]
+			contains either component preview, adjustments, or appearance
+
+		<FONT COLOR=#008000 SIZE=4>comp_preview.gib</FONT> (root = "" [Background])
+
+			"component name textbox"	[TextBox]
+			component name goes here
+
+			"component 3d preview"	[Placeholder]
+			load 3d view of component for preview here
+
+			"attach button"	[Button]
+			click to begin attachment dragging for placement
+
+			"component option"	[DropDown]
+			fill dropdown with available optional styles for this component
+
+			"component description"	[DisplayBox]
+			put description of component here
+
+		<FONT COLOR=#008000 SIZE=4>control_cell.gib</FONT> (root = "control grp" [Group])
+
+			"control grp"	[Group]
+			'control img' in this group should be either ctrl_analog.bmp, ctrl_button, or ctrl_switch
+
+			"control input"	[TextBox]
+			show the keys or gamepad input for this control
+
+			"control name"	[TextBox]
+			show the name the player has given this control
+
+		<FONT COLOR=#008000 SIZE=4>ctrl_analog_props.gib</FONT> (root = "analog control window" [Window])
+
+			"control name"	[TextBox]
+			user enters a name for this control
+
+			"cancel button"	[Button]
+			cancel and close window
+
+			"ok button"	[Button]
+			accept and close window
+
+			"input1"	[TextBox]
+			set input for positive axis
+
+			"input2"	[TextBox]
+			set input for negative axis
+
+			"input note"	[TextBox]
+			Optional note field
+
+		<FONT COLOR=#008000 SIZE=4>ctrl_button_props.gib</FONT> (root = "button control window" [Window])
+
+			"control name"	[TextBox]
+			user enters a name for this control
+
+			"cancel button"	[Button]
+			cancel and close window
+
+			"ok button"	[Button]
+			accept and close window
+
+			"input1"	[TextBox]
+			set input for this control
+
+			"input note"	[TextBox]
+			Optional note field
+
+		<FONT COLOR=#008000 SIZE=4>ctrl_switch_props.gib</FONT> (root = "switch control window" [Window])
+
+			"control name"	[TextBox]
+			user enters a name for this control
+
+			"cancel button"	[Button]
+			cancel and close window
+
+			"ok button"	[Button]
+			accept and close window
+
+			"input1"	[TextBox]
+			set input for this control
+
+			"input note"	[TextBox]
+			Optional note field
+
+		<FONT COLOR=#008000 SIZE=4>overview.gib</FONT> (root = "overview split" [SplitFrame])
+
+			"overview split"	[SplitFrame]
+			load this into content slot
+
+			"3d placeholder"	[Placeholder]
+			common 3d view for various areas of botlab
+
+			"bot name textbox"	[TextBox]
+			player types bot name here
+
+			"snapshot button"	[Button]
+			click to take a snapshot of robot for bitmap preview
+
+			"weightclass"	[TextBox]
+			display class here: Lightweight or Heavyweight
+
+			"weight"	[TextBox]
+			show bot weight here
+
+			"heading slider"	[Slider]
+			set bot forward direction with this slider
+
+		<FONT COLOR=#008000 SIZE=4>testarena.gib</FONT> (root = "test arena main group" [Group])
+
+			"test arena placeholder"	[Placeholder]
+			load the test arena here (put placeholder into content slot)
+
+			"obstacles optiongroup"	[OptionGroup]
+			optiongroup to choose which practice obstacles are in the arena
+
+			"none cb"	[CheckBox]
+			no obstacles
+
+			"blocks cb"	[CheckBox]
+			blocks
+
+			"barrels cb"	[CheckBox]
+			barrels
+
+			"cones cb"	[CheckBox]
+			cones
+
+			"ramps cb"	[CheckBox]
+			ramps
+
+			"crates cb"	[CheckBox]
+			crates
+
+			"reset button"	[Button]
+			reset obstacles and bot (in case flipped over, etc.)
+
+			"name"	[TextBox]
+			name of this bot
+
+			"points"	[TextBox]
+			number of points scored
+
+		<FONT COLOR=#008000 SIZE=4>wiring.gib</FONT> (root = "wiring split" [SplitFrame])
+
+			"wiring split"	[SplitFrame]
+			load this into content slot
+
+			"3d wiring placeholder"	[Placeholder]
+			common 3d view for various areas of botlab
+
+			"mouse instructions grp"	[Group]
+			mouse instruction tip. Needs more thought.
+
+			"control grid"	[Grid]
+			controls can be dragged and dropped here
+
+			"new switch"	[Button]
+			click to start dragging a new switch onto the controller
+
+			"new button"	[Button]
+			click to start dragging a new button onto the controller
+
+			"new analog"	[Button]
+			click to start dragging a new analog control onto the controller
+
+			"delete button"	[Button]
+			click to delete the selected control
+
+		<FONT COLOR=#008000 SIZE=4>cprops_info.gib</FONT> (root = "info property split" [SplitFrame])
+
+		<FONT COLOR=#008000 SIZE=4>armor.gib</FONT> (root = "armor split" [SplitFrame])
+
+			"armor split"	[SplitFrame]
+			load this into content slot
+
+			"3d placeholder"	[Placeholder]
+			common 3d view for various areas of botlab
+
+			"finished button"	[Button]
+			click to return to main chassis menu
+
+			"armor grid"	[Grid]
+			load this grid with the four armor cells
+
+			"default appearance checkbox"	[CheckBox]
+			if checked, apply chassis appearance filters when picking armor
+
+		<FONT COLOR=#008000 SIZE=4>appearance.gib</FONT> (root = "appearance split" [SplitFrame])
+
+			"appearance split"	[SplitFrame]
+			load this into content slot
+
+			"3d appearance placeholder"	[Placeholder]
+			common 3d view for various areas of botlab
+
+			"export button"	[Button]
+			click to export the texture map template
+
+			"import button"	[Button]
+			click to import a custom texture
+
+			"undo button"	[Button]
+			click to undo last filter (disable if no undo available)
+
+			"effect dropdown"	[DropDown]
+			fill with all possible effects to choose from
+
+			"effect settings group"	[Group]
+			load individual effects gibs here
+
+		<FONT COLOR=#008000 SIZE=4>comp_adjust.gib</FONT> (root = "" [Background])
+
+			"component name textbox"	[TextBox]
+			component name goes here
+
+		<FONT COLOR=#008000 SIZE=4>wiring_connection_analog.gib</FONT> (root = "analog wiring win" [Window])
+
+			"img group"	[Group]
+			use 'component image' child to show the preview image of the component being wired
+
+			"component name"	[TextBox]
+			component classification (spin motor, burst motor, etc.)
+
+			"cancel button"	[Button]
+			click to cancel and abort this wiring connection
+
+			"ok button"	[Button]
+			click to accept and close window
+
+			"options main group"	[Group]
+			hmm. not sure how to handle possible options. Let's talk.
+
+			"input1 map"	[DropDown]
+			fill with possible control mappings for this control-component combination (value is for input1)
+
+			"input1 key"	[TextBox]
+			show the key that has been assigned to input1
+
+			"input2 key"	[TextBox]
+			show the key that has been assigned to input2
+
+			"input2 map"	[DropDown]
+			fill with possible control mappings for this control-component combination (value is for input2)
+
+		<FONT COLOR=#008000 SIZE=4>wiring_connection_switch.gib</FONT> (root = "switch wiring win" [Window])
+
+			"img group"	[Group]
+			use 'component image' child to show the preview image of the component being wired
+
+			"component name"	[TextBox]
+			component classification (spin motor, burst motor, etc.)
+
+			"cancel button"	[Button]
+			click to cancel and abort this wiring connection
+
+			"ok button"	[Button]
+			click to accept and close window
+
+			"options main group"	[Group]
+			hmm. not sure how to handle possible options. Let's talk.
+
+			"input1 map"	[DropDown]
+			fill with possible control mappings for this control-component combination (value is for input1)
+
+			"input1 key"	[TextBox]
+			show the key that has been assigned to input1
+
+		<FONT COLOR=#008000 SIZE=4>wiring_connection_button.gib</FONT> (root = "button wiring win" [Window])
+
+			"img group"	[Group]
+			use 'component image' child to show the preview image of the component being wired
+
+			"component name"	[TextBox]
+			component classification (spin motor, burst motor, etc.)
+
+			"cancel button"	[Button]
+			click to cancel and abort this wiring connection
+
+			"ok button"	[Button]
+			click to accept and close window
+
+			"options main group"	[Group]
+			hmm. not sure how to handle possible options. Let's talk.
+
+			"input1 map"	[DropDown]
+			fill with possible control mappings for this control-component combination (value is for input1)
+
+			"input1 key"	[TextBox]
+			show the key that has been assigned to input1
+
+		<FONT COLOR=#008000 SIZE=4>armor_cell.gib</FONT> (root = "armor cell split" [SplitFrame])
+
+			"Slot0"	[Group]
+			'armor img' child should be the preview for each armor type
+
+			"description"	[DisplayBox]
+			armor description displayed here
+
+			"weight value"	[TextBox]
+			show weight value here
+
+			"concussion value"	[TextBox]
+			show concussion value here
+
+			"armor name"	[TextBox]
+			change to "plastic", "aluminum", etc.
+
+		<FONT COLOR=#008000 SIZE=4>exportbot.gib</FONT> (root = "export bot window" [Window])
+
+			"cancel button"	[Button]
+			cancel and close window
+
+			"ok button"	[Button]
+			accept and close window
+
+			"file name"	[TextBox]
+			exported filename
+
+			"preview group"	[Group]
+			'export snapshot' child of this group is for the robot preview image (filter it, thanks)
+
+		<FONT COLOR=#008000 SIZE=4>importbot.gib</FONT> (root = "import bot window" [Window])
+
+			"cancel button"	[Button]
+			cancel and close window
+
+			"ok button"	[Button]
+			accept and close window
+
+			"preview group"	[Group]
+			'export snapshot' child of this group is for the robot preview image (filter it, thanks)
+
+			"file list"	[ListBox]
+			populate with bot designs in the appropriate game folder
+
+		<FONT COLOR=#008000 SIZE=4>adjust_burst.gib</FONT> (root = "" [Background])
+
+			"component name textbox"	[TextBox]
+			component name goes here
+
+			"start angle slider"	[Slider]
+			set the starting angle for the burst motor
+
+			"end angle slider"	[Slider]
+			set the ending angle for burst motor
+
+		<FONT COLOR=#008000 SIZE=4>adjust_none.gib</FONT> (root = "" [Background])
+
+			"component name textbox"	[TextBox]
+			component name goes here
+
+		<FONT COLOR=#008000 SIZE=4>colorfill.gib</FONT> (root = "color fill split" [SplitFrame])
+
+			"selected color group"	[Group]
+			'selected color img' child of this group should be filled with the chosen color
+
+			"lum slider"	[Slider]
+			use slider to set lightness (default to .5)
+
+			"hue group"	[Group]
+			use this group for picking hue and saturation (set 'picker target' location to mouse spot)
+
+			"paint entire"	[Button]
+			click to apply the color to the entire chassis
+
+		<FONT COLOR=#008000 SIZE=4>import_texture.gib</FONT> (root = "import texture window" [Window])
+
+			"cancel button"	[Button]
+			cancel and close window
+
+			"ok button"	[Button]
+			accept and close window
+
+			"file list"	[ListBox]
+			populate with available custom textures
+
+		<FONT COLOR=#008000 SIZE=4>export_texture.gib</FONT> (root = "export texture template window" [Window])
+
+			"cancel button"	[Button]
+			cancel and close window
+
+			"ok button"	[Button]
+			accept and close window
+
+			"export name textbox"	[TextBox]
+			name for the exported file
+
+			"texture or template cb"	[CheckBox]
+			if checked, export the current texture instead of a blank template
+
+		<FONT COLOR=#008000 SIZE=4>save_dialog.gib</FONT> (root = "exit botlab window" [Window])
+
+			"save button"	[Button]
+			click to save and exit bot lab
+
+			"discard button"	[Button]
+			discard changes, exit bot lab
+
+			"cancel button"	[Button]
+			cancel this dialog, return to bot lab
+
+		<FONT COLOR=#008000 SIZE=4>texturefill.gib</FONT> (root = "texture fill split" [SplitFrame])
+
+			"selected texture group"	[Group]
+			'selected texture img' child of this group should be filled with the chosen color
+
+			"texture list"	[ListBox]
+			fill with all the image filenames found in the texture library
+
+			"texture entire"	[Button]
+			click to apply the texture to the entire chassis
+
+		<FONT COLOR=#008000 SIZE=4>surfacelayer.gib</FONT> (root = "surface layer split" [SplitFrame])
+
+			"selected texture group"	[Group]
+			'selected texture img' child of this group should be filled with the chosen color
+
+			"texture list"	[ListBox]
+			fill with all the image filenames found in the texture library
+
+			"texture entire"	[Button]
+			click to apply the texture to the entire chassis
+
+		<FONT COLOR=#008000 SIZE=4>edgelines.gib</FONT> (root = "edge line split" [SplitFrame])
+
+			"edge line split"	[SplitFrame]
+			splitframe for the edge effect
+
+			"edge preview group"	[Group]
+			'edge preview img' child of this group should have the lines drawn as a preview
+
+			"edge list"	[ListBox]
+			fill with possible edge styles
+
+			"edge entire"	[Button]
+			click to apply the texture to the entire chassis
+
+		<FONT COLOR=#008000 SIZE=4>adjust_zone.gib</FONT> (root = "" [Background])
+
+			"component name textbox"	[TextBox]
+			component name goes here
+
+			"zone name"	[TextBox]
+			name for the zone
+
+		<FONT COLOR=#008000 SIZE=4>supershine.gib</FONT> (root = "supershine group" [Group])
+
+			"supershine on"	[Button]
+			click to add environment map
+
+			"supershine off"	[Button]
+			click to turn off environment map
+
+		<FONT COLOR=#008000 SIZE=4>decals.gib</FONT> (root = "decal split" [SplitFrame])
+
+			"selected texture group"	[Group]
+			'selected texture img' child of this group should be filled with the chosen decal
+
+			"decal list"	[ListBox]
+			fill with all the decal image filenames found in the texture library
+
+			"scale slider"	[Slider]
+			adjust scale of the decal
+
+		<FONT COLOR=#000080 SIZE=4>maps</FONT>
+
+	<FONT COLOR=#000080 SIZE=4>teamhq</FONT>
+
+		<FONT COLOR=#008000 SIZE=4>event_bracket.gib</FONT> (root = "event bracket win" [Window])
+
+			"heading group"	[Group]
+			'event graphic' child of this group gets the event preview image
+
+			"event title"	[TextBox]
+			put event title here
+
+			"event description"	[DisplayBox]
+			put event description here
+
+			"round heading textbox"	[TextBox]
+			display the current round here: "ROUND 2" or "FINAL MATCH" or whatever
+
+			"play button"	[Button]
+			click to play the next match
+
+			"later button"	[Button]
+			click to return to team HQ and pause this event
+
+			"bracket group"	[Group]
+			build the event bracket inside this group (see sample on wiki page)
+
+			"Options button"	[Button]
+			click to bring up options dialog
+
+			"MainMenu button"	[Button]
+			click to return to main menu
+
+			"Help button"	[Button]
+			click to bring up appropriate help for this screen
+
+		<FONT COLOR=#008000 SIZE=4>hq_robots.gib</FONT> (root = "robot inventory group" [Group])
+
+			"robot grid"	[Grid]
+			fill grid with team robots (robot_cell.gib)
+
+			"workshop button"	[Button]
+			click to go to the bot workshop
+
+			"export button"	[Button]
+			click to export selected bot
+
+			"import button"	[Button]
+			click to import a bot into the selected slot
+
+			"scrap button"	[Button]
+			click to delete selected bot
+
+		<FONT COLOR=#008000 SIZE=4>editteam.gib</FONT> (root = "edit team win" [Window])
+
+			"cancel button"	[Button]
+			cancel and close window
+
+			"ok button"	[Button]
+			accept and close window
+
+			"window caption"	[TextBox]
+			window caption can be "Edit Robotics Team" or "New Robotics Team"
+
+			"name input textbox"	[TextBox]
+			player enters team name here
+
+			"team motto input textbox"	[TextBox]
+			player enters team motto here
+
+			"logo listbox"	[ListBox]
+			list of possible logos to choose from
+
+			"logo preview group"	[Group]
+			'logo image preview' child of this group shows the selected logo
+
+		<FONT COLOR=#008000 SIZE=4>event_cell.gib</FONT> (root = "event cell group" [Group])
+
+			"event cell group"	[Group]
+			'preview img' child is the event preview image
+
+		<FONT COLOR=#008000 SIZE=4>hq_events.gib</FONT> (root = "events group" [Group])
+
+			"schedule title"	[TextBox]
+			title of schedule ("Event Schedule - Amateur Season 3")
+
+			"event grid"	[Grid]
+			fill with this season's events (event_cell.gib)
+
+		<FONT COLOR=#008000 SIZE=4>hq_history.gib</FONT> (root = "history split" [SplitFrame])
+
+			"total seasons"	[TextBox]
+			show total number of seasons this team has played (including current)
+
+			"current rank"	[TextBox]
+			show current season rank
+
+			"best rank"	[TextBox]
+			show best final season rank (if no seasons completed yet: n/a)
+
+			"total events"	[TextBox]
+			show total number of events played across all seasons
+
+			"wins"	[TextBox]
+			total match wins from all events in all seasons
+
+			"losses label"	[TextBox]
+			total match losses from all events in all seasons
+
+			"events won"	[TextBox]
+			total number of events won (final winner of all rounds)
+
+			"highest score"	[TextBox]
+			highest match point score ever
+
+			"fastest win"	[TextBox]
+			fastest match win ever(minutes:seconds)
+
+			"prizes grid"	[Grid]
+			fill grid with prize bitmaps for all past events (only show last 32 to avoid grid overload?). Show most recently won prizes first. Cell size should be fixed at 80 x 80. Can higher resolution video show more cells in width?
+
+		<FONT COLOR=#008000 SIZE=4>hq_league.gib</FONT> (root = "" [Background])
+
+			"competition level"	[TextBox]
+			label: "AMATEUR LEAGUE STANDINGS" or SEMI-PROFESSIONAL... or PROFESSIONAL...
+
+			"season"	[TextBox]
+			put current season here ("Season 3")
+
+			"events remaining"	[TextBox]
+			put number of events remaining ("Events remaining: 9")
+
+			"league grid"	[Grid]
+			fill with league_cell.gib with the teams in order of rank
+
+		<FONT COLOR=#008000 SIZE=4>bot_cell.gib</FONT> (root = "robot cell group" [Group])
+
+			"bot img group"	[Group]
+			load bot image into 'bot snapshot img' child of this group
+
+			"bot name"	[TextBox]
+			robot name here
+
+			"weight class"	[TextBox]
+			'Lightweight' or 'Heavyweight' here
+
+		<FONT COLOR=#008000 SIZE=4>joinevent.gib</FONT> (root = "join event window" [Window])
+
+			"preview group"	[Group]
+			'preview img' child of this group gets the event preview bitmap
+
+			"event name"	[TextBox]
+			event name shown here
+
+			"description"	[DisplayBox]
+			event description here
+
+			"robot grid"	[Grid]
+			user chooses one of his six robots to enter this event
+
+			"robot name"	[TextBox]
+			selected bot name
+
+			"cancel button"	[Button]
+			click to cancel and close window
+
+			"enter event button"	[Button]
+			click to accept robot choice and start the event
+
+		<FONT COLOR=#008000 SIZE=4>league_cell.gib</FONT> (root = "league cell split" [SplitFrame])
+
+			"league cell split"	[SplitFrame]
+			load this into each cell of the grid and fill with data
+
+			"Slot0"	[Group]
+			'league team logo' child of this slot gets the logo for this team
+
+			"rank"	[TextBox]
+			team rank
+
+			"league team name"	[TextBox]
+			team name
+
+			"points"	[TextBox]
+			show number of points for this team
+
+			"motto"	[TextBox]
+			team motto
+
+		<FONT COLOR=#008000 SIZE=4>nobot_cell.gib</FONT> (root = "robot cell group" [Group])
+
+			"bot img group"	[Group]
+			load bot image into 'bot snapshot img' child of this group
+
+			"bot name"	[TextBox]
+			robot name here
+
+			"weight class"	[TextBox]
+			'Lightweight' or 'Heavyweight' here
+
+		<FONT COLOR=#008000 SIZE=4>select_team.gib</FONT> (root = "Select Team win" [Window])
+
+			"select team grid"	[Grid]
+			load team_cell.gib's into these grid cells for each team.
+
+			"new team button"	[Button]
+			click to create new team
+
+			"delete team button"	[Button]
+			click to delete the selected team (show confirm dialog)
+
+			"continue button"	[Button]
+			click to go to team hq with selected team (disable button if no team selected)
+
+			"Options button"	[Button]
+			click to bring up options dialog
+
+			"MainMenu button"	[Button]
+			click to return to main menu
+
+			"Help button"	[Button]
+			click to bring up appropriate help for this screen
+
+		<FONT COLOR=#008000 SIZE=4>team_cell.gib</FONT> (root = "team cell" [Group])
+
+			"team cell"	[Group]
+			team cell group is loaded into the select team grid. Logo img gets the team logo (no notes field).
+
+			"team name textbox"	[TextBox]
+			team name in this text box
+
+			"team motto textbox"	[TextBox]
+			team motto in this text box
+
+		<FONT COLOR=#008000 SIZE=4>teamhq.gib</FONT> (root = "team hq win" [Window])
+
+			"Options button"	[Button]
+			click to bring up options dialog
+
+			"MainMenu button"	[Button]
+			click to return to main menu
+
+			"Help button"	[Button]
+			click to bring up appropriate help for this screen
+
+			"logo grp"	[Group]
+			put team logo in the child image ('hq logo img')of this group
+
+			"hq button optiongroup"	[OptionGroup]
+			group of buttons to select which hq gib is in the content area
+
+			"robots button"	[CheckBox]
+			load hq_robots.gib into hq content group
+
+			"league button"	[CheckBox]
+			load hq_league.gib into hq content group
+
+			"events button"	[CheckBox]
+			load hq_events.gib into hq content group
+
+			"history button"	[CheckBox]
+			load hq_history.gib into hq content group
+
+			"select team button"	[Button]
+			click to go back to the select team screen
+
+			"hq motto textbox"	[TextBox]
+			display team motto here
+
+			"edit team button"	[Button]
+			click to open edit team window (editteam.gib)
+
+			"hq team name textbox"	[TextBox]
+			display team name here
+
+			"kills group"	[Group]
+			display the kills skulls here
+
+			"hq content group"	[Group]
+			load stuff into this group
+
+		<FONT COLOR=#008000 SIZE=4>repairs.gib</FONT> (root = "repairs win" [Window])
+
+			"background grp"	[Group]
+			'background img' gets the arena preview
+
+			"repair time"	[TextBox]
+			display remaining repair time here
+
+			"repairs 3d placeholder"	[Placeholder]
+			show bot needing repairs here
+
+			"repairs list"	[ListBox]
+			fill with components and repair times for each
+
+			"repair button"	[Button]
+			click to repair the selected item
+
+			"finished button"	[Button]
+			go to event bracket for next round
+
+			"Options button"	[Button]
+			click to bring up options dialog
+
+			"MainMenu button"	[Button]
+			click to return to main menu
+
+			"Help button"	[Button]
+			click to bring up appropriate help for this screen
+
+		<FONT COLOR=#008000 SIZE=4>eventcell_inprogress.gib</FONT> (root = "event cell group" [Group])
+
+			"event cell group"	[Group]
+			'preview img' child is the event preview image
+
+		<FONT COLOR=#008000 SIZE=4>eventcell_disabled.gib</FONT> (root = "event cell group" [Group])
+
+			"event cell group"	[Group]
+			'preview img' child is the event preview image
+
+		<FONT COLOR=#008000 SIZE=4>eventcell.gib</FONT> (root = "event cell group" [Group])
+
+			"event cell group"	[Group]
+			'preview img' child is the event preview image
+
+		<FONT COLOR=#008000 SIZE=4>eventcell_completed.gib</FONT> (root = "event cell group" [Group])
+
+			"event cell group"	[Group]
+			'preview img' child is the event preview image
+
+		<FONT COLOR=#008000 SIZE=4>teampreview.gib</FONT> (root = "team preview window" [Window])
+
+			"team preview window"	[Window]
+			main window to load
+
+			"caption bar"	[TextBox]
+			put progress caption here
+
+		<FONT COLOR=#008000 SIZE=4>event_winner.gib</FONT> (root = "event winner window" [Window])
+
+			"event graphic group"	[Group]
+			'event img' child of this group is the graphic logo for the event
+
+			"team name"	[TextBox]
+			display team name here
+
+			"bot name"	[TextBox]
+			display robot name here
+
+			"rounds won"	[TextBox]
+			show number of rounds won and total ("1/4", "4/4", etc)
+
+			"team points"	[TextBox]
+			show total team points scored for this event
+
+			"continue button"	[Button]
+			click to go back to team HQ
+
+			"prize description"	[DisplayBox]
+			put the prize description here
+
+		<FONT COLOR=#008000 SIZE=4>golden_sawblade.gib</FONT> (root = "golden saw window" [Window])
+
+			"continue button"	[Button]
+			click to return to team HQ
+
+		<FONT COLOR=#008000 SIZE=4>season_results.gib</FONT> (root = "season results window" [Window])
+
+			"message"	[DisplayBox]
+			display custom message here
+
+			"continue button"	[Button]
+			click to continue
+
+			"results grid"	[Grid]
+			fill with sresults_cell.gib just like league standings
+
+		<FONT COLOR=#008000 SIZE=4>sresults_cell.gib</FONT> (root = "season results cell" [Group])
+
+			"season results cell"	[Group]
+			'league team logo' img gets team logo
+
+			"rank"	[TextBox]
+			team rank
+
+			"points"	[TextBox]
+			show team points
+
+			"league team name"	[TextBox]
+			team name
+
+	<FONT COLOR=#000080 SIZE=4>multiplayer</FONT>
+
+		<FONT COLOR=#008000 SIZE=4>activeplayer.gib</FONT> (root = "active player group" [Group])
+
+			"active player group"	[Group]
+			this group is shown when a player has entered the match
+
+			"bot img group"	[Group]
+			player bot image loaded into 'bot img' (child of this group)
+
+			"ready checkbox"	[CheckBox]
+			player checks this when he's ready
+
+			"team name"	[TextBox]
+			team name here
+
+			"bot name"	[TextBox]
+			bot name here
+
+			"eject button"	[Button]
+			click to remove this player from the match, pop up confirmation dialog
+
+			"change robot button"	[Button]
+			player clicks this to change his team or robot
+
+		<FONT COLOR=#008000 SIZE=4>closedplayer.gib</FONT> (root = "closed player grp" [Group])
+
+			"closed player grp"	[Group]
+			show this group if a player slot is closed (deathmatch has only 2 players, for example)
+
+		<FONT COLOR=#008000 SIZE=4>mpc_settings.gib</FONT> (root = "MP settings grp" [Group])
+
+			"server name textbox"	[TextBox]
+			player types server name here
+
+			"LAN radio but"	[CheckBox]
+			select if LAN game only
+
+			"internet radio but"	[CheckBox]
+			select if game is published via Gamespy
+
+			"password textbox"	[TextBox]
+			optional password for the server
+
+		<FONT COLOR=#008000 SIZE=4>mp_create.gib</FONT> (root = "create mp game win" [Window])
+
+			"mp create optiongroup"	[OptionGroup]
+			buttons selected here load various gibs into the content area
+
+			"mp settings button"	[CheckBox]
+			click to load mpc_settings.gib into content group
+
+			"gametype button"	[CheckBox]
+			click to load gametype.gib into content group
+
+			"arena button"	[CheckBox]
+			click to load arena.gib into content group
+
+			"content group"	[Group]
+			load content into this group
+
+			"cancel game button"	[Button]
+			return to multiplayer.gib screen
+
+			"start game button"	[Button]
+			start the new multiplayer server
+
+			"Options button"	[Button]
+			click to bring up options dialog
+
+			"MainMenu button"	[Button]
+			click to return to main menu
+
+			"Help button"	[Button]
+			click to bring up appropriate help for this screen
+
+		<FONT COLOR=#008000 SIZE=4>multiplayer.gib</FONT> (root = "multiplayer win" [Window])
+
+			"LAN radio but"	[CheckBox]
+			select to view LAN servers
+
+			"Internet radio but"	[CheckBox]
+			select to view Internet servers
+
+			"server listbox"	[ListBox]
+			fill with server list
+
+			"heading grid"	[Grid]
+			put column headings here
+
+			"Refresh button"	[Button]
+			click to refresh server list
+
+			"Join game button"	[Button]
+			click to join selected server
+
+			"Create Game button"	[Button]
+			click to create a new server
+
+			"status"	[TextBox]
+			display status messages here
+
+			"IP connect button"	[Button]
+			click to open IP direct connect window
+
+			"Options button"	[Button]
+			click to bring up options dialog
+
+			"MainMenu button"	[Button]
+			click to return to main menu
+
+			"Help button"	[Button]
+			click to bring up appropriate help for this screen
+
+		<FONT COLOR=#008000 SIZE=4>noplayer.gib</FONT> (root = "noplayer grp" [Group])
+
+			"noplayer grp"	[Group]
+			if a position slot is empty, show this group
+
+			"human player button"	[Button]
+			click to join the match in this player slot (open bot selection window)
+
+			"computer player button"	[Button]
+			host clicks to add a computer AI bot (open select computer bot window)
+
+		<FONT COLOR=#008000 SIZE=4>prematch.gib</FONT> (root = "prematch win" [Window])
+
+			"faded img group"	[Group]
+			'faded img' child of this group contains the arena preview
+
+			"disconnect button"	[Button]
+			click to disconnect
+
+			"settings button"	[Button]
+			click to bring up settings window to change arena or whatever
+
+			"chat messages"	[DisplayBox]
+			display all the chat messages here
+
+			"chat textbox"	[TextBox]
+			player can enter a chat message here, press enter to send and clear this field
+
+			"screen name"	[TextBox]
+			player can edit his screen name here
+
+			"spectator list"	[ListBox]
+			list of the spectators (joined but not in the match)
+
+			"arena name"	[TextBox]
+			display arena name here
+
+			"game type"	[TextBox]
+			display match title here (exhibition, event round, etc)
+
+			"weight group"	[Group]
+			'weightclass img' child gets one of the four button bmps
+
+			"player3 group"	[Group]
+			can have noplayer.gib, activeplayer.gib, or closedplayer.gib
+
+			"player4 group"	[Group]
+			same as player1 group
+
+			"player1 group"	[Group]
+			can have noplayer.gib, activeplayer.gib, or closedplayer.gib
+
+			"player2 group"	[Group]
+			same as player1 group
+
+			"begin match button"	[Button]
+			host clicks to begin the match (hide for other players, disable until all players are ready)
+
+			"Options button"	[Button]
+			click to bring up options dialog
+
+			"MainMenu button"	[Button]
+			click to return to main menu
+
+			"Help button"	[Button]
+			click to bring up appropriate help for this screen
+
+		<FONT COLOR=#008000 SIZE=4>password.gib</FONT> (root = "password window" [Window])
+
+			"cancel button"	[Button]
+			user responds Yes
+
+			"ok button"	[Button]
+			user responds Yes
+
+			"password field"	[TextBox]
+			user enters password here
+
+		<FONT COLOR=#008000 SIZE=4>loadbot.gib</FONT> (root = "loading grp" [Group])
+
+			"loading grp"	[Group]
+			if a position slot is empty, show this group
+
+			"progress group"	[Group]
+			'progress bar' img child of this group can have width from 0 to 120
+
+		<FONT COLOR=#008000 SIZE=4>changeoptions.gib</FONT> (root = "MP change window" [Window])
+
+			"MP change window"	[Window]
+			main window to load
+
+			"mp create optiongroup"	[OptionGroup]
+			buttons selected here load various gibs into the content area
+
+			"gametype button"	[CheckBox]
+			click to load gametype.gib into content group
+
+			"arena button"	[CheckBox]
+			click to load arena.gib into content group
+
+			"content group"	[Group]
+			load content into this group
+
+			"cancel button"	[Button]
+			cancel changes and close dialog
+
+			"accept button"	[Button]
+			accept changes and update MP game
+
+		<FONT COLOR=#008000 SIZE=4>ip_connect.gib</FONT> (root = "ip connect window" [Window])
+
+			"cancel button"	[Button]
+			close window and cancel IP connect
+
+			"connect button"	[Button]
+			click to connect to IP
+
+	<FONT COLOR=#000080 SIZE=4>exhibition</FONT>
+
+		<FONT COLOR=#008000 SIZE=4>arena.gib</FONT> (root = "arena group" [Group])
+
+			"arena listbox"	[ListBox]
+			populate with arena names
+
+			"hazard checkbox"	[CheckBox]
+			enable or disable hazards for this arena
+
+			"arena preview grp"	[Group]
+			child image of this group is the preview bitmap of the arena
+
+			"description"	[DisplayBox]
+			arena description displayed here
+
+		<FONT COLOR=#008000 SIZE=4>gametype.gib</FONT> (root = "gametype grp" [Group])
+
+			"game type optiongroup"	[OptionGroup]
+			buttons in this group select which type of game to play
+
+			"deathmatch checkbox"	[CheckBox]
+			select deathmatch
+
+			"battle royal checkbox"	[CheckBox]
+			select battle royal
+
+			"teams checkbox"	[CheckBox]
+			select team match
+
+			"tabletop checkbox"	[CheckBox]
+			select table top
+
+			"kingofhill checkbox"	[CheckBox]
+			select king of the hill
+
+			"weight class optiongroup"	[OptionGroup]
+			use to pick a weight class
+
+			"lightweight cb"	[CheckBox]
+			allow only lightweight
+
+			"mediumweight cb"	[CheckBox]
+			allow only medium weight
+
+			"heavyweight cb"	[CheckBox]
+			allow only heavyweight
+
+			"all classes cb"	[CheckBox]
+			allow any weight class
+
+			"time dropdown"	[DropDown]
+			user selects time for match duration (1, 2, 3, 4, 5, 10, 15, 20 minutes?, default to 5?)
+
+		<FONT COLOR=#008000 SIZE=4>selectbot_computer.gib</FONT> (root = "select computer bot win" [Window])
+
+			"robots grid"	[Grid]
+			load the (up to) six robots for the selected team into this grid
+
+			"cancel button"	[Button]
+			cancel choice and close window
+
+			"ok button"	[Button]
+			accept choice and close window
+
+			"team dropdown"	[DropDown]
+			player selects a team from this list, then bots for that team are shown
+
+			"team logo grp"	[Group]
+			'team logo img' child of this group should show the selected team's logo
+
+			"team motto"	[TextBox]
+			display team motto here
+
+			"robot name"	[TextBox]
+			display selected bot name here
+
+		<FONT COLOR=#008000 SIZE=4>selectbot_player.gib</FONT> (root = "select player bot win" [Window])
+
+			"robots grid"	[Grid]
+			load the (up to) six robots for the selected team into this grid
+
+			"window title"	[TextBox]
+			set text to "Select Player Robot" or "Select Computer Robot"
+
+			"cancel button"	[Button]
+			cancel choice and close window
+
+			"ok button"	[Button]
+			accept choice and close window
+
+			"team dropdown"	[DropDown]
+			player selects a team from this list, then bots for that team are shown
+
+			"team logo grp"	[Group]
+			'team logo img' child of this group should show the selected team's logo
+
+			"team motto"	[TextBox]
+			display team motto here
+
+			"robot name"	[TextBox]
+			display selected bot name here
+
+		<FONT COLOR=#008000 SIZE=4>exhib_setup.gib</FONT> (root = "exhibition setup win" [Window])
+
+			"exhibition optiongroup"	[OptionGroup]
+			buttons selected here load various gibs into the content area
+
+			"robots button"	[CheckBox]
+			click to load exhib_robots.gib into content group
+
+			"gametype button"	[CheckBox]
+			click to load gametype.gib into content group
+
+			"arena button"	[CheckBox]
+			click to load arena.gib into content group
+
+			"content group"	[Group]
+			load content into this group
+
+			"start game button"	[Button]
+			start the game
+
+			"Options button"	[Button]
+			click to bring up options dialog
+
+			"MainMenu button"	[Button]
+			click to return to main menu
+
+			"Help button"	[Button]
+			click to bring up appropriate help for this screen
+
+		<FONT COLOR=#008000 SIZE=4>exhib_robots.gib</FONT> (root = "exhibition robots group" [Group])
+
+			"player1 group"	[Group]
+			load appropriate gib for player 1 here
+
+			"player2 group"	[Group]
+			load appropriate player 2 gib
+
+			"player3 group"	[Group]
+			load appropriate gib for player 3 here
+
+			"player4 group"	[Group]
+			load appropriate player 4 gib
+
+		<FONT COLOR=#008000 SIZE=4>choosebot_cell.gib</FONT> (root = "bot cell" [Group])
+
+</PRE></BODY></HTML>

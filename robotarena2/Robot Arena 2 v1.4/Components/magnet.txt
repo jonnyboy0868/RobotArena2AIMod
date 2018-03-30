@@ -1,0 +1,12 @@
+name = Magnet
+preview = magnet_preview.bmp
+dir = magnet
+model = magnet.gmf
+type = mechanics
+base = Magnet
+description = Makes for a sticky situation.
+attachsound = sounds\cmp_generic.wav
+standard = 0
+hidden = 2
+firesound = sounds\magnet.wav
+elecMaxInOutRate = -600

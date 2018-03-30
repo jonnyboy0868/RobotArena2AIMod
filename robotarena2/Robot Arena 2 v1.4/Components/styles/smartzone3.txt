@@ -1,0 +1,9 @@
+name = Smart Zone
+preview = smartzone_preview.bmp
+dir = smartzone
+model = smartzone3.gmf
+type = power
+base = SmartZone
+passthru = smart_zone
+description = undefined
+standard = 1

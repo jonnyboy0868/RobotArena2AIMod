@@ -1,0 +1,17 @@
+name = Servo Piston
+preview = servopiston_preview.bmp
+dir = servopiston
+model = servopiston1.gmf
+type = mechanics
+base = ServoPiston
+master = body
+passthru = shaft_collision
+attaching = shaft
+prismatic = body, shaft, 0, 0, 1, 0.0, -.60, 0.2
+styles = 60 cm, servopiston2.txt, 80 cm, servopiston3.txt, 100 cm, servopiston4.txt, 120 cm
+description = The servo piston allows slow, controlled movement in both in and out directions. Multiple lengths are available. Wire a button or analog control to this unit.
+power = 1 20
+airmaxinoutrate = -80
+sort = 40
+attachsound = sounds\cmp_generic.wav
+standard = 1

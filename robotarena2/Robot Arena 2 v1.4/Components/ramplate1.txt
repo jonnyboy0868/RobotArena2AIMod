@@ -1,0 +1,14 @@
+name = Ram Plate
+preview = ramplate_preview.bmp
+dir = ram_plate
+model = ramplate1.gmf
+type = extras
+base = Component
+styles = Default
+description = Generic metal plate, useful for a ram, shield, or other device.
+damagesounds = sounds\ramplate_hit.wav
+hitpoints = 1000
+fracture = 40
+material = metal(.4)
+attachsound = sounds\cmp_generic.wav
+standard = 1

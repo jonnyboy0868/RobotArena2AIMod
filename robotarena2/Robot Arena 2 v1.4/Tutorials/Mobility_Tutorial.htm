@@ -1,0 +1,287 @@
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="tutorials.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<p class="tutorial_title">Mobility Tutorial</p>
+<p class="tutorial_body">Well, you gotta be able to move around the arena right? 
+  This tutorial covers some of the common ways you can build and wire your robot 
+  for easy driving. Of course, you can do just about anything you want to make 
+  your bot move. You don't even need to use wheels if you don't want to. But for 
+  now, we'll just be talking about wheeled robots. There are numerous possibilities 
+  for how you set up your wheels: 2 wheels, 4 wheels, powered steering unit, wheels 
+  kept internal or placed external, etc. You'll probably discover many variations 
+  on your own. I will get you started with a basic 2 wheeled bot to get you started.</p>
+<p class="tutorial_note">Note: For this tutorial, we won't cover some of the basic 
+  concepts like how to create a chassis. If you don't know how to use the workshop 
+  to build a chassis and place components, you might want to read the first tutorial 
+  on basic construction before reading this one.</p>
+<p class="tutorial_heading">2-Wheeled Bots</p>
+<p class="tutorial_body"><img src="images/mobility/2_wheelers.jpg" width="600" height="197"></p>
+<p class="tutorial_body">Two wheeled bots are one of the easiest types of robots 
+  to build and wire. This is a common design seen in AI bots like Stinger, Wide 
+  Load, Flame Chopper, and LugNut. The basic principle is to set up two spin motors 
+  facing the opposite direction from one another and attach wheels to those motors. 
+  The steering technique is accomplished through wiring. Each motor is turning 
+  either clockwise or counterclockwise. When the wheels rotate together the bot 
+  goes forward, when they turn in opposite directions the bot steers left or right. 
+  Lets build a quick one.</p>
+<p class="tutorial_body"> In the workshop, build a new robot and use any chassis 
+  shape, but make sure it is large enough to hold two spin motors, a battery, 
+  and control board. My shape is shown below.</p>
+<p class="tutorial_body"><img src="images/mobility/2_wheel_outline.gif" width="200" height="220"></p>
+<p class="tutorial_body">Go to the components menu and place two spin motors on 
+  the baseplate facing opposite directions. Remember that holding the SHIFT key 
+  while placing a component will let you rotate it. I used the Red Bird motor 
+  here, but you can use another spin motor if you want. Just make sure the axles 
+  point outward from the center of the bot. Although the body of a spinmotor cannot 
+  pass through the walls of the chassis, the axles can. This helps you to place 
+  wheels externally.</p>
+<p class="tutorial_note"> Note: If you wanted, you could keep the motors and axles 
+  completely inside the chassis so that when you put a wheel on the axle it is 
+  guarded inside the walls of the chassis. You need to ensure there is enough 
+  room for the motor/axle AND the wheel, of course.</p>
+<p class="tutorial_body"><img src="images/mobility/2_wheel_motors.jpg" width="400" height="228"></p>
+<p class="tutorial_body">The next step is simply to place wheels on the axles 
+  of the spin motors. You will find that the various wheels have different diameters 
+  and some may not be large enough to use with certain spin motor setups. For 
+  example, the mini wheel is too small to use with the Z-Tek motor because it 
+  can't reach the ground.</p>
+<p class="tutorial_body"><img src="images/mobility/2_wheel_wheels.jpg" width="400" height="228"></p>
+<p class="tutorial_body">If I test my robot now, the front end will fall to the 
+  ground since it has no support to balance it. You might want this effect for 
+  some designs, but for this example, lets add a Balance Caster component to keep 
+  the front of the bot level. I picked the 20 cm version of the caster. Some components 
+  have styles like this to help fine-tune your robot. Note that the caster component 
+  is placed on the bottom of the baseplate. You won't see it if you are viewing 
+  from the top.</p>
+<p class="tutorial_body"><img src="images/mobility/2_wheel_caster.jpg" width="400" height="228"></p>
+<p class="tutorial_body">Go ahead and put a battery and controlboard somewhere 
+  inside the bot. We will need these if we want to be able to wire and drive the 
+  bot.</p>
+<p class="tutorial_body"><img src="images/mobility/2_wheel_battery.jpg" width="400" height="228"></p>
+<p class="tutorial_body">Go to the Wiring setup screen. We will be using two analog 
+  controls for this robot. Remember that analog controls have two inputs: one 
+  positive and one negative. This is ideal for driving setups because we have 
+  opposing directions. So we will use one analog control for the Forward-Reverse 
+  directions and another analog control for Left-Right steering.</p>
+<p class="tutorial_body"><img src="images/mobility/2_wheel_analog.jpg" width="400" height="228"></p>
+<p class="tutorial_body">It is frequently helpful to give names to your controls. 
+  For the first analog input, you could call it &quot;Forward-Back.&quot; Click 
+  the input boxes and assign two keys from your keyboard that will be used for 
+  control input. My example uses <b>W</b> and <b>S</b>. Or you might press two 
+  directions on a gamepad or joystick if you are using that style of input.</p>
+<p class="tutorial_body"><img src="images/mobility/2_wheel_analog_input.jpg" width="300" height="191"></p>
+<p class="tutorial_body">Now you need to wire the Forward-Back control to your 
+  spinmotors. Rotate your 3D view so you can easily see the two spin motors, and 
+  so that UP would represent a forward direction for your bot to drive. With the 
+  control selected in the grid, click on the right spin motor. You will get a 
+  dialog box asking how to wire the motor. For the right motor, wire it so that 
+  positive is clockwise and negative is counter-clockwise. Click OK when you have 
+  done this.</p>
+<p class="tutorial_body"><img src="images/mobility/2_wheel_cw_ccw.jpg" width="300" height="210"></p>
+<p class="tutorial_body">You have wired one motor for Forward-Back, now wire the 
+  other one. With the same Forward-Back analog control still selected in the grid, 
+  click the left spin motor. This motor will be wired <i>opposite</i> of the right 
+  motor, since it faces the opposite direction. Wire this one so that positive 
+  is counter-clockwise and negative is clockwise. </p>
+<p class="tutorial_body">If you think about it, it makes sense: pressing the forward 
+  input key (my example is &quot;W&quot;) sends positive input to the control. 
+  Positive is wired so that the right motor spins clockwise and the left motor 
+  spins counter-clockwise. Imagine the wheels spinning in this fashion and you 
+  can see that the bot would drive forward. Pressing the other input key (&quot;S&quot; 
+  in my case) sends negative input which spins the wheels the opposite direction 
+  causing the bot to drive in reverse. Try it out by going to the test garage 
+  (click &quot;Test Robot&quot;) if you want to see how the bot drives so far.</p>
+<p class="tutorial_body">OK. We have forward and reverse. Now we need to be able 
+  to steer the robot. Steering is easy to set up. Drag another analog control 
+  onto the controller grid and name it &quot;Left-Right&quot; and assign some 
+  input keys. Since I used <b>W</b> and <b>S</b> for forward/reverse, I might 
+  choose <b>A</b> and <b>D</b> for left and right. Then, with that analog control 
+  selected, you will wire each spin motor identically: positive is clockwise, 
+  negative is counter-clockwise. Again, think about what is happening here. Pressing 
+  the &quot;Left&quot; input sends a positive control signal. Positive is wired 
+  so that each motor spins clockwise. If the right motor spins clockwise, it will 
+  push the right side of the bot forward. If the left motor spins clockwise, it 
+  will push the left side backward. When the right side goes forward and the left 
+  side goes backward, the resulting motion is a rotation of the entire bot chassis 
+  in the left direction.</p>
+<p class="tutorial_body"><img src="images/mobility/2w_mobility_diagram.gif" width="318" height="300" align="left">If 
+  it helps, here is a diagram of your wiring. It shows how each analog control 
+  is wired to each spin motor.</p>
+<p class="tutorial_note">Remember that terms like &quot;left&quot; and &quot;right&quot; 
+  are dependent on your viewpoint. This assumes you are looking at the bot from 
+  the top down and that UP in the view would match the robot's forward direction.</p>
+<p class="tutorial_note"><br clear=left>
+</p>
+<hr noshade>
+<p class="tutorial_heading">4-Wheeled Bots</p>
+<p class="tutorial_heading"><img src="images/mobility/4_wheelers.jpg" width="600" height="200"></p>
+<p class="tutorial_body">The good news here is that once you understand the principles 
+  of the 2-wheeled wiring, a 4-wheeled bot is nearly identical. Instead of just 
+  one motor facing each direction, set up two on each side of the bot. Motors 
+  on the right side of the bot are wired the same as one another. Motors on the 
+  left side are wired the same as one another.</p>
+<p class="tutorial_body">You have the added option here of using 4-wheel drive 
+  or 2-wheel drive, and 4-wheel steering or 2-wheel steering. With a lightweight 
+  bot and powerful spin motors, you might find that having all 4 motors wired 
+  for steering is too powerful and your bot spins too fast. In this case you could 
+  use all four motors for driving forward and reverse, but use only the front 
+  two motors for steering.</p>
+<p class="tutorial_body">With the diagram below, assuming up is the forward direction 
+  of the robot, see if you can wire the two analog controls to the four spin motors 
+  to get this 4-wheeled bot to drive properly. The motors and controls are labeled 
+  and the solution is given following the illustration.</p>
+<p class="tutorial_body"><img src="images/mobility/4_wheel_quiz.jpg" width="343" height="187"> 
+</p>
+<p class="tutorial_body">Solution:</p>
+<table width="321" border="1" bordercolor="#CCCCCC" cellpadding="2" cellspacing="0">
+  <tr> 
+    <td width="24%"><font face="Arial, Helvetica, sans-serif" size="1" color="#666666">Control 
+      1 </font></td>
+    <td width="25%"><font face="Arial, Helvetica, sans-serif" size="1" color="#666666">Motor 
+      A</font></td>
+    <td width="51%"><font face="Arial, Helvetica, sans-serif" size="1" color="#666666">Positive 
+      = CCW<br>
+      Negative = CW</font></td>
+  </tr>
+  <tr> 
+    <td width="24%"><font face="Arial, Helvetica, sans-serif" size="1" color="#666666">Control 
+      1 </font></td>
+    <td width="25%"><font face="Arial, Helvetica, sans-serif" size="1" color="#666666">Motor 
+      B</font></td>
+    <td width="51%"><font face="Arial, Helvetica, sans-serif" size="1" color="#666666">Positive 
+      = CCW<br>
+      Negative = CW</font></td>
+  </tr>
+  <tr> 
+    <td width="24%"><font face="Arial, Helvetica, sans-serif" size="1" color="#666666">Control 
+      1</font></td>
+    <td width="25%"><font face="Arial, Helvetica, sans-serif" size="1" color="#666666">Motor 
+      C</font></td>
+    <td width="51%"><font face="Arial, Helvetica, sans-serif" size="1" color="#666666">Positive 
+      = CW<br>
+      Negative = CCW</font></td>
+  </tr>
+  <tr> 
+    <td width="24%"><font face="Arial, Helvetica, sans-serif" size="1" color="#666666">Control 
+      1 </font></td>
+    <td width="25%"><font face="Arial, Helvetica, sans-serif" size="1" color="#666666">Motor 
+      D</font></td>
+    <td width="51%"><font face="Arial, Helvetica, sans-serif" size="1" color="#666666">Positive 
+      = CW<br>
+      Negative = CCW</font></td>
+  </tr>
+  <tr> 
+    <td width="24%"><font face="Arial, Helvetica, sans-serif" size="1" color="#666666">Control 
+      2</font></td>
+    <td width="25%"><font face="Arial, Helvetica, sans-serif" size="1" color="#666666">Motor 
+      A</font></td>
+    <td width="51%"><font face="Arial, Helvetica, sans-serif" size="1" color="#666666">Positive 
+      = CW<br>
+      Negative = CCW</font></td>
+  </tr>
+  <tr> 
+    <td width="24%"><font face="Arial, Helvetica, sans-serif" size="1" color="#666666">Control 
+      2 </font></td>
+    <td width="25%"><font face="Arial, Helvetica, sans-serif" size="1" color="#666666">Motor 
+      B</font></td>
+    <td width="51%"><font face="Arial, Helvetica, sans-serif" size="1" color="#666666">Positive 
+      = CW<br>
+      Negative = CCW</font></td>
+  </tr>
+  <tr> 
+    <td width="24%"><font face="Arial, Helvetica, sans-serif" size="1" color="#666666">Control 
+      2</font></td>
+    <td width="25%"><font face="Arial, Helvetica, sans-serif" size="1" color="#666666">Motor 
+      C</font></td>
+    <td width="51%"><font face="Arial, Helvetica, sans-serif" size="1" color="#666666">Positive 
+      = CW<br>
+      Negative = CCW</font></td>
+  </tr>
+  <tr> 
+    <td width="24%"><font face="Arial, Helvetica, sans-serif" size="1" color="#666666">Control 
+      2 </font></td>
+    <td width="25%"><font face="Arial, Helvetica, sans-serif" size="1" color="#666666">Motor 
+      D</font></td>
+    <td width="51%"><font face="Arial, Helvetica, sans-serif" size="1" color="#666666">Positive 
+      = CW<br>
+      Negative = CCW</font></td>
+  </tr>
+</table>
+<hr noshade>
+<p class="tutorial_heading"><img src="images/mobility/ps_preview.jpg" width="141" height="96" align="left">Powered 
+  Steering Component </p>
+<p class="tutorial_body">The Powered Steering component is a single component 
+  that you place on your chassis baseplate to make it easier to set up and wire 
+  the bot for driving. The component has two axles with rotating hubs, and wiring 
+  connections for forward, reverse, left, and right. It typically needs to be 
+  used on a four-wheeled robot because it mimics the type of steering on a car, 
+  with moveable rotors for directing the angle of the wheels. This is different 
+  from the style of steering you used above where you wired one motor to go forward 
+  and the other to go in reverse in order to steer the robot. This part of the 
+  tutorial will walk you through using the Powered Steering component.</p>
+<p class="tutorial_body">Build a chassis that would be suitable for a four-wheeled 
+  design. Something sort of rectangular would work, but remember that you can 
+  make just about any shape you want as long as you can fit the components you 
+  need into it. </p>
+<p class="tutorial_body"><img src="images/mobility/ps_chassis.jpg" width="400" height="223"></p>
+<p class="tutorial_body">With your chassis ready, go to the components screen 
+  and pick the <i>mechanics</i> category. You will see the Powered Steering component 
+  in the list. This component comes in three styles: narrow, medium, and wide, 
+  depending on the size of your chassis. For the one I have built here, the narrow 
+  style will fit best. Click to attach the component and place it in the front 
+  of your chassis. Notice the blue triangular arrows on top of the component. 
+  These indicate the forward direction, so place the component so the arrows point 
+  towards the front of the bot.</p>
+<p class="tutorial_body"><img src="images/mobility/ps_component.jpg" width="400" height="217"></p>
+<p class="tutorial_body">The hexagonal hubs on each side are just like axles of 
+  a spin motor. Go ahead and put wheels on these. You'll see they pop into place 
+  easily.</p>
+<p class="tutorial_body"><img src="images/mobility/ps_wheels.jpg" width="400" height="217"> 
+</p>
+<p class="tutorial_body">To make this a four-wheeled bot, we need some wheels 
+  in the back of the robot. You could place spin motors back there, but let's 
+  make this example as easy as possible and use generic axle mounts. Axle mounts 
+  are unpowered axles that can rotate freely--useful for extra support wheels. 
+  These are found in the <i>extenders</i> category. Put one on each side in the 
+  back, as my example shows.</p>
+<p class="tutorial_body"><img src="images/mobility/ps_axlemounts.jpg" width="400" height="216"></p>
+<p class="tutorial_body">Your bot is nearly built. Pop a few wheels on these axle 
+  mounts, then add a battery and control board. </p>
+<p class="tutorial_note"><img src="images/mobility/ps_battery.jpg" width="200" height="200"></p>
+<p class="tutorial_note">You may notice that the axle mounts are at a slightly 
+  different height than the powered steering hubs. For that matter, each spin 
+  motor is at a different height and each wheel is a different diameter, so mixing 
+  and matching components may result in bots that are not perfectly level, but 
+  that's ok. Remember you can also raise components up off the baseplate to adjust 
+  how high they are positioned.</p>
+<p class="tutorial_body">For wiring, we will again use two analog controls. Remember 
+  how to drag these onto your controller? Label one of them &quot;Forward-Back&quot; 
+  and the other &quot;Left-Right&quot; if you want to remember what each one is 
+  for. Assign keys or joystick inputs to these controls.</p>
+<p class="tutorial_body"><img src="images/mobility/powersteer_wiring.jpg" width="400" height="205"></p>
+<p class="tutorial_body">The actual wiring part is easy. Start with the &quot;Forward-Back&quot; 
+  control, select it, and click on the Powered Steering component in the 3d view. 
+  In the popup dialog, wire positive to &quot;Forward&quot; and negative to &quot;Backward.&quot; 
+  Then click OK.</p>
+<p class="tutorial_body"><img src="images/mobility/powersteer_forwback.jpg" width="300" height="210"></p>
+<p class="tutorial_body">Now, select the &quot;Left-Right&quot; analog control 
+  and again click on the Powered Steering unit. This time, wire positive to &quot;Left&quot; 
+  and negative to &quot;Right.&quot; Piece of cake, eh?</p>
+<p class="tutorial_body"><img src="images/mobility/ps_leftright.jpg" width="300" height="210"></p>
+<p class="tutorial_body">That's all there is to it. Try it out in the test garage 
+  and you'll see that you can drive forward and reverse, and steer the wheels 
+  left and right. Similar to a car, left and right by themselves simply rotate 
+  the wheel angles. You have to be driving forward or backward while steering 
+  if you want to turn.</p>
+<p class="tutorial_body">There are many variations you can do with the powered 
+  steering component. You could combine it with spin motors for added power. You 
+  could use two powered steering components, one in front and one in the rear. 
+  You could steer from the back of the bot. And so forth.</p>
+<p class="tutorial_body"><a href="Tutorials_index.htm">Back to Tutorials Index</a></p>
+</body>
+</html>

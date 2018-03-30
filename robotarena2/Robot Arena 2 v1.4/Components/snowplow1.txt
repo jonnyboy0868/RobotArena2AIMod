@@ -1,0 +1,11 @@
+name = Snow Plow
+preview = snowplow_preview.bmp
+dir = snowplow
+model = snowplow1.gmf
+type = extras
+base = Component
+styles = Default
+description = If it can push a couple hundred pounds of snow, why not shovel your opponent with it?
+damagesounds = sounds\snowplow_hit.wav
+attachsound = sounds\cmp_generic.wav
+standard = 1

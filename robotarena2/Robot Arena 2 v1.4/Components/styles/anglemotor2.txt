@@ -1,0 +1,15 @@
+name = Reversible Angle Motor
+preview = anglemotor_preview.bmp
+dir = anglemotor
+model = anglemotor2.gmf
+type = mechanics
+base = SpinMotor
+master = anglemotor
+passthru = axle_collision
+attaching = axle
+description = This is a compact, low-powered spin motor, ideal for driving or limited weapon uses. Available in standard or reverse angled versions. Wire with analog, switch, or button controls.
+power = 18 14
+elecMaxInOutRate = -80
+motorsound = sounds\motorloop2.wav
+attachsound = sounds\cmp_generic.wav
+standard = 1

@@ -1,0 +1,14 @@
+name = Hovercraft Engine
+preview = hovercraft_preview.bmp
+dir = hovercraft
+model = hovercraft.gmf
+type = mechanics
+base = Hovercraft
+attachsound = sounds\cmp_generic.wav
+description = Up, up, and away!
+power = 14
+standard = 0
+hidden = 2
+alwaysvisible = true
+firesound = sounds\hovercraft.wav
+airmaxinoutrate = -20

@@ -1,0 +1,10 @@
+name = Angle Connector
+preview = angler_preview.bmp
+dir = angler
+model = angler1.gmf
+type = extenders
+base = Component
+passthru = angler
+styles = 90 degree, angler2.txt, 67.5 degree, angler3.txt, 45 degree, angler4.txt, 22.5 degree
+description = The angle connector lets you connect two objects at an angle in between 0 and 90 degrees.
+standard = 1

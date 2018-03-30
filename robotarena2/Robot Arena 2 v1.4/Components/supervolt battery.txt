@@ -1,0 +1,11 @@
+name = SuperVolt 12V Battery
+dir = battery1
+type = power
+base = Battery
+model = battery1.gmf
+preview = battery1_preview.bmp
+description = Supply plenty of juice to your bot using this large battery.
+electotal = 52000
+elecmaxinoutrate = 800
+attachsound = sounds\cmp_battery.wav
+standard = 1

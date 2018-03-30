@@ -1,0 +1,10 @@
+name = Round Extender
+preview = ext_round_preview.bmp
+dir = extender_round
+model = extender7.gmf
+type = extenders
+base = Component
+passthru = extender_round_collision
+description = Standard round extender. Available in various lengths. This extender can pass through the walls of the chassis.
+attachsound = sounds\cmp_generic.wav
+standard = 1

@@ -1,0 +1,12 @@
+name = Emergency Flipper
+preview = emergency_preview.bmp
+dir = emergency
+model = flipper1.gmf
+type = extras
+base = Component
+styles = Default
+description = Emergency style flipper
+hitpoints = 600
+fracture = 20
+hidden = 0
+standard = 1

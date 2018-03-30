@@ -1,0 +1,13 @@
+name = Balance Caster
+preview = caster_preview.bmp
+dir = caster
+model = caster4.gmf
+type = mobility
+base = Component
+passthru = caster_collision
+description = Useful for bots with two wheels or needing other added support.
+material = rubber(0)
+attachsound = sounds\cmp_wheels.wav
+damageable = false
+standard = 1
+alwaysvisible = true

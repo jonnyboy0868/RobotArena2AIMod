@@ -1,0 +1,4 @@
+Filename: dotted_rail.tga
+Preview: rail_preview.bmp
+Length ratio (world pixels per file pixel): .04
+Width (world pixels): 8

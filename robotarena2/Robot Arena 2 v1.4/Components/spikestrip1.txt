@@ -1,0 +1,16 @@
+name = Spike Strip
+preview = spikestrip_preview.bmp
+dir = spikestrip
+model = spikestrip1.gmf
+type = weapons
+base = Weapon
+passthru = strip_collision
+styles = Default
+description = This jagged metal strip can be mounted on its bottom side or rear tip.
+damagesounds = sounds\high_metal_tink.wav
+normal = false -1 0 0  0 1 0
+decal = double_slash.tga 0 0 1 .5 .5 0
+attachsound = sounds\cmp_generic.wav
+concussion = .1
+piercing = .8
+standard = 1

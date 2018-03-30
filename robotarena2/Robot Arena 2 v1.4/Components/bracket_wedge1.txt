@@ -1,0 +1,12 @@
+name = Bracket Wedge
+preview = bracketwedge_preview.bmp
+dir = bracket_wedge
+model = bracket_wedge1.gmf
+type = extras
+base = Component
+passthru = bracketwedge_collision
+styles = Default
+description = Pre-assembled bracket arm component useful for wedge or lifting devices.
+damagesounds = sounds\bracket_hit.wav
+attachsound = sounds\cmp_generic.wav
+standard = 1

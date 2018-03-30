@@ -1,0 +1,14 @@
+name = Bear Claw
+preview = bearclaw_preview.bmp
+dir = bearclaw
+model = bearclaw1.gmf
+type = weapons
+base = Weapon
+styles = Default
+description = Grrrrrr!! (Discovered by Radio F)
+hidden = 0
+normal = false 0 0 1  0 1 0
+decal = double_slash.tga 1 0 0 .5 .5 0
+concussion = .8
+piercing = .3
+standard = 1

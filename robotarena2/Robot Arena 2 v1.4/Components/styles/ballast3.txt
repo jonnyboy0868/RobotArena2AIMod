@@ -1,0 +1,10 @@
+name = Ballast
+preview = ballast_preview.bmp
+dir = ballast
+model = ballast3.gmf
+type = extras
+base = Component
+description = Lead weight useful to counter-balance your robot if needed. Several weights available.
+attachsound = sounds\cmp_generic.wav
+damageable = false
+standard = 1

@@ -1,0 +1,14 @@
+name = Samurai Sword
+preview = samurai_prevew.bmp
+dir = samurai
+model = samurai1.gmf
+type = weapons
+base = Weapon
+styles = Default
+description = Study the way of the Bushido, my young warrior-friend. (Discovered by Radio F)
+hidden = 0
+normal = false 1 0 0
+decal = single_slash.tga 0 0 1 .5 .5 1
+concussion = .8
+piercing = .3
+standard = 1

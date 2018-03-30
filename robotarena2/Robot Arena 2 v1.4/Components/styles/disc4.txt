@@ -1,0 +1,12 @@
+name = Disc
+preview = disc_preview.bmp
+dir = disc
+model = disc4.gmf
+type = extenders
+base = Component
+passthru = disc_collision
+description = This disc has several mounting positions for spinning weapons or other devices.
+hitpoints = 500
+fracture = 20
+attachsound = sounds\cmp_generic.wav
+standard = 1

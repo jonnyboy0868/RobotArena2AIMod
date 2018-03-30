@@ -1,0 +1,12 @@
+name = Hammer Head
+dir = hammer
+type = weapons
+base = Weapon
+model = hammer.gmf
+preview = hammer_preview.bmp
+description = Heavy hammer head with dual mount positions.
+damagesounds = sounds\hammer_hit.wav
+normal = false -1 0 0
+decal = batter02.tga 0 0 1 .5 .5 0
+attachsound = sounds\cmp_generic.wav
+standard = 1

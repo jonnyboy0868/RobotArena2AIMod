@@ -1,0 +1,11 @@
+name = CO2 Tank
+dir = airtank
+type = power
+base = AirTank
+model = airtank.gmf
+preview = airtank_preview.bmp
+description = Compressed air is used to power your piston components. Mountable only inside your chassis.
+airtotal = 800
+airmaxinoutrate= 120
+attachsound = sounds\cmp_airtank.wav
+standard = 1

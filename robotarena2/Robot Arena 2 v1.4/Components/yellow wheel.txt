@@ -1,0 +1,14 @@
+name = Buzzard wheel
+dir = wheel3
+type = mobility
+base = Wheel
+model = wheel3.gmf
+preview = wheel3_preview.bmp
+passthru = wheel3_collision
+description = A classic from the Yellow Buzzard series.
+contact = wheel3_traction
+resistance = .2
+grip = 1
+damagesounds = sounds\rubber_collision.wav,sounds\rubber_collision2.wav
+attachsound = sounds\cmp_wheels.wav
+standard = 1

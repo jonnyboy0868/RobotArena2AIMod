@@ -1,0 +1,16 @@
+name = Iron Spike
+preview = darkspike_preview.bmp
+dir = darkspike
+model = darkspike1.gmf
+type = weapons
+base = Weapon
+passthru = spike_collision
+styles = Default
+description = This heavy iron spike is primitive, but serves its purpose as a pointed weapon.
+damagesounds = sounds\low_clank.wav
+#normal = false -1 0 0
+decal = pierce02.tga 0 0 1 .45 .45 0
+attachsound = sounds\cmp_generic.wav
+concussion = .1
+piercing = .8
+standard = 1

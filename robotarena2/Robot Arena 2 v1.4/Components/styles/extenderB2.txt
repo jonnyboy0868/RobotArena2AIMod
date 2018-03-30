@@ -1,0 +1,10 @@
+name = Round Extender Black
+preview = ext_roundB_preview.bmp
+dir = extender_roundB
+model = extenderB2.gmf
+type = extenders
+base = Component
+passthru = extender_round_collision
+description = Standard round extender. Available in various lengths. Black version.
+attachsound = sounds\cmp_generic.wav
+standard = 1

@@ -1,0 +1,10 @@
+name = Square Extender
+preview = ext_square_preview.bmp
+dir = extender_square
+model = sq_extender7.gmf
+type = extenders
+base = Component
+passthru = sq_extender
+description = Standard square extender. Available in various lengths. This extender can pass through the walls of the chassis.
+attachsound = sounds\cmp_generic.wav
+standard = 1

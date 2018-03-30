@@ -1,0 +1,11 @@
+name = Robot Control Board
+dir = controlboard
+type = power
+base = ControlBoard
+model = controlboard.gmf
+preview = controlboard_preview.bmp
+description = The controlboard is a required component for all robots, and must be placed somewhere on the baseplate. A serial EEPROM microprocessor handles radio communication and relay switching.
+sort = -10
+attachsound = sounds\cmp_controlboard.wav
+damageable = false
+standard = 1

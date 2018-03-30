@@ -1,0 +1,360 @@
+index 0
+Red Zone
+"Do NOT enter the Red Zone!"
+AI\red_zone.bmp
+Robots: 0 1 2
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+100000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0
+0
+0
+index 1
+PREHISTORIC
+"Bad and bloodthirsty."
+AI\dino.bmp
+Robots: 0 1 2
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+100000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0
+0
+0
+index 2
+The Good ol' Boys
+"Don't need nothin' but my truck, my shotgun, and my bot."
+AI\good_ol_boys.bmp
+Robots: 0 1 2
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+100000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0
+0
+0
+index 3
+Team Dragon
+"If you defeat us, we will sneak in at night and steal your chickens."
+AI\dragon.bmp
+Robots: 0 1 2
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+100000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0
+0
+0
+index 4
+BLACK STORM
+"Beware, BLACK STORM!"
+AI\black_storm.bmp
+Robots: 0 1 2
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+100000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0
+0
+0
+index 5
+Team SPARK
+"Fast and furious."
+AI\spark.bmp
+Robots: 0 1 2
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+100000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0
+0
+0
+index 6
+SpikeHeads
+"I'd like you to meet my little metal friend..."
+AI\spikeball.bmp
+Robots: 0 1 2
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+100000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0
+0
+0
+index 7
+North Polers
+"Chilling defeat will gnaw your bones."
+AI\northpolers.bmp
+Robots: 0 1 2
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+100000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0
+0
+0
+index 8
+HIGH VOLTAGE
+"Here, hold this wire for a second..."
+AI\high_voltage.bmp
+Robots: 0 1 2
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+100000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0
+0
+0
+index 9
+Team HEX
+"We eat nuts and bolts for breakfast."
+AI\hex.bmp
+Robots: 0 1 2
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+100000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0
+0
+0
+index 10
+Team Z
+"Cooler than you."
+AI\z.bmp
+Robots: 0 1 2
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+100000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0
+0
+0
+index 11
+SteelYard Dog
+"Our Bite is MUCH worse than our bark!"
+AI\steeldog.bmp
+Robots: 0 1 2
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+100000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0
+0
+0
+index 12
+RIOT
+"Things are going to get LOUD!"
+AI\riot.bmp
+Robots: 0 1 2
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+100000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0
+0
+0
+index 13
+MEGATON
+"Boom."
+AI\megaton.bmp
+Robots: 0 1 2
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+100000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0
+0
+0
+index 14
+The Scrappers
+"We are scrap parts specialists."
+AI\the_scrappers.bmp
+Robots: 0 1 2
+Robot In Event: -1
+0
+16
+16
+0
+0
+0
+0
+0
+100000
+true
+0
+false
+0
+-1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0
+0
+0

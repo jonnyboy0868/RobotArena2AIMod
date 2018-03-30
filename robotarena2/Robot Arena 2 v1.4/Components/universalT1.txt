@@ -1,0 +1,11 @@
+name = T Connector
+preview = T_preview.bmp
+dir = universalT
+model = universalT1.gmf
+type = extenders
+base = Component
+passthru = t_collision
+styles = Default
+description = Branch a connection point using this T-shaped connector.
+attachsound = sounds\cmp_generic.wav
+standard = 1

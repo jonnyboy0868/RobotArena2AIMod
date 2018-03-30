@@ -1,0 +1,12 @@
+name = Smart Zone
+preview = smartzone_preview.bmp
+dir = smartzone
+model = smartzone1.gmf
+type = power
+base = SmartZone
+passthru = smart_zone
+styles = Small, smartzone2.txt, Medium, smartzone3.txt, Large
+description = used to make A.I. bots
+hidden = 0
+standard = 1
+

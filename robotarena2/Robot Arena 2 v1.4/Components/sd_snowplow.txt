@@ -1,0 +1,11 @@
+name = Steelyard Dogs Snow Plow
+preview = sd_preview.bmp
+dir = sd_snowplow
+model = sd_snowplow1.gmf
+type = extras
+base = Component
+styles = Default
+description = If it can push a couple hundred pounds of snow, why not shovel your opponent with it? (Discovered by Radio F)
+damagesounds = sounds\snowplow_hit.wav
+hidden = 0
+standard = 1

@@ -1,0 +1,12 @@
+name = Cannon
+preview = cannon_preview.bmp
+dir = cannon
+model = cannon.gmf
+type = mechanics
+base = Cannon
+description = Guns don't kill robots, cannons do.
+attachsound = sounds\cmp_generic.wav
+standard = 0
+hidden = 2
+firesound = sounds\cannon_fire.wav
+airmaxinoutrate = -100

@@ -1,0 +1,16 @@
+name = Lawn Mower Blade
+preview = mower_blade_preview.bmp
+dir = mower_blade
+model = mower_blade1.gmf
+type = weapons
+base = Weapon
+passthru = mblade_collision
+styles = Default
+description = Nice cutting edge. Your grandpa won't miss it until spring comes and he tries to cut his grass.
+damagesounds = sounds\chorus_metal_tink.wav
+normal = true 0 1 0
+decal = single_slash.tga 0 0 1 .5 .5 1
+attachsound = sounds\cmp_generic.wav
+concussion = .8
+piercing = .3
+standard = 1

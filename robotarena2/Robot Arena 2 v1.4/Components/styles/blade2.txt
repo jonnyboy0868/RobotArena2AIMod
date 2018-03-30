@@ -1,0 +1,14 @@
+name = Blade
+preview = blade_preview.bmp
+dir = blade
+model = blade2.gmf
+type = weapons
+base = Weapon
+description = Multi-purpose steel blade.
+damagesounds = sounds\chorus_metal_tink.wav
+normal = false -1 0 0
+decal = double_slash.tga 0 0 1 .5 .5 1
+attachsound = sounds\cmp_generic.wav
+concussion = .8
+piercing = .3
+standard = 1

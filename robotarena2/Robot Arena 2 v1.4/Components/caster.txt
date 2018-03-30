@@ -1,0 +1,14 @@
+name = Balance Caster
+preview = caster_preview.bmp
+dir = caster
+model = caster1.gmf
+type = mobility
+base = Component
+passthru = caster_collision
+styles = 10 cm height, caster2.txt, 15 cm height, caster3.txt, 20 cm height, caster4.txt, 25 cm height
+description = Useful for bots with two wheels or needing other added support.
+material = rubber(0)
+attachsound = sounds\cmp_wheels.wav
+damageable = false
+standard = 1
+alwaysvisible = true
