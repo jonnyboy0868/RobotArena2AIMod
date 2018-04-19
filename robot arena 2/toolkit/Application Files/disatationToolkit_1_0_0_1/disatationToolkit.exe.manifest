@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="disatationToolkit.exe" version="1.0.0.1" publicKeyToken="2fb303d9356f7e0b" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="disatationToolkit" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="disatationToolkit.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="disatationToolkit.exe" size="20992">
+      <assemblyIdentity name="disatationToolkit" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>BwvGiPtWfa59aYR743WjsproqKP0FAjB3YvbgnjuW38=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="disatationToolkit.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-CB43H3S\jonny" issuerKeyHash="6113c5a340b6e4d43a2c76f738d8d4fad5ef81ce" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>U1Aa4wx72uc/OibdHliub5+//d3gxEYcqkwm49nEbew=</DigestValue></Reference></SignedInfo><SignatureValue>iBek8eXUaNQBc0LGeDnyNSoagx+UTVnSIwAPlUWr8feIpNN5ZGjS3J7+vV5ThpsTYzUbFNEDVqDjdIqYVnD6hdN5f01LHfQHgEh+fNuF2bu+yZoyrGwTy/+cNtCQQ4SKg3c/D7CW0JBQfKqECRv8k3dHCGTqDdqtEoTgHDNQfJA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>thll5mjxWVk2ojXj2PdeVBq0w9DE+GWsi8jv2f3voJ3pca64lVFVQx5oO7y3eisaeoNc5EfldPTxgESV/uzwmb7jUOJJmAoUv4uaQfKwnCWde9e9r9PBMHiNL2MUQbJoMe8JOd+GPcultYxM07M6EWcdRWGAuQrgKXwLker3oCk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ec6dc4d9e3264caa1c46c4e0ddfdbf9f6fae581edd263a3fe7da7b0ce31a5053" Description="" Url=""><as:assemblyIdentity name="disatationToolkit.exe" version="1.0.0.1" publicKeyToken="2fb303d9356f7e0b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-CB43H3S\jonny</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/scqqTeHD9FLF244SXC0+8fLWs6VA1TwATOxON35FsA=</DigestValue></Reference></SignedInfo><SignatureValue>WQG7Az5OA7ucIJxde0a3A0rJ7CmqDJKDGLXeN8S2T3X2bbplQgMCISS7N612TNsbxjeBIp6YZnY3RHqOHwxNhcyh6+2TYBboFWH7+NK5HV2PYWLysHz1eCN36jfPMzAcOLnxj6cjIiU+w8By9/vhYt/qd8pK5nIeAQ5ZH7Udc/s=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>thll5mjxWVk2ojXj2PdeVBq0w9DE+GWsi8jv2f3voJ3pca64lVFVQx5oO7y3eisaeoNc5EfldPTxgESV/uzwmb7jUOJJmAoUv4uaQfKwnCWde9e9r9PBMHiNL2MUQbJoMe8JOd+GPcultYxM07M6EWcdRWGAuQrgKXwLker3oCk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQGDYz3RH+7INBQ6T3VxCboTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEMAQgA0ADMASAAzAFMAXABqAG8AbgBuAHkwHhcNMTgwNDE4MTEzNjIwWhcNMTkwNDE4MTczNjIwWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEMAQgA0ADMASAAzAFMAXABqAG8AbgBuAHkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALYZZeZo8VlZNqI149j3XlQatMPQxPhlrIvI79n976Cd6XGuuJVRVUMeaDu8t3orGnqDXORH5XT08YBElf7s8Jm+41DiSZgKFL+LmkHysJwlnXvXva/TwTB4jS9jFEGyaDHvCTnfhj3LpbWMTNOzOhFnHUVhgLkK4Cl8C5Hq96ApAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAON0HtT7Fq9UHcHSfz9kk9wI95ZGmqMr99/dWixiLR8hBEkcxjrrvPiqN38iPRY4t/NeZVrqAYKuJsrtAA2JQ5xd7ZpVo6MuQwEcwS9nhiEuKSor4z8S5utAXC6mskK5VACxbw5rR5J7hkutDnTIivfVaoNyXqcqA+X6BcagLpNs=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

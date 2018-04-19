@@ -1,0 +1,1 @@
+    list.append( ("Alex","Spinner", {'radius': 1.0, 'nose' : math.pi ,'topspeed': 4.0,'turnspeed': 2.5, 'weapons':(0.0 , 0.0) } )  )

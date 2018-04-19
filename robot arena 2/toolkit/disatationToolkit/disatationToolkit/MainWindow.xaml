@@ -1,0 +1,30 @@
+﻿<Window x:Class="disatationToolkit.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="A.I. ToolKit By Jon Watson" Height="350" Width="525" Background="Black">
+    <Grid>
+        <!--menu items for the home screen-->
+        <!--end of advanced user button-->
+        <!--start of basic user button-->
+        <Button x:Name="Basic_User" Background="White" Click="Basic_Button_Clicked" HorizontalAlignment="Left" VerticalAlignment="Top" Width="134" Margin="189,113,0,0" Height="118">
+            <Button.Content>
+                <TextBox TextWrapping="Wrap" TextAlignment="Center" FontFamily="Century Gothic" FontSize="15" BorderBrush="White" Background="White" TextChanged="TextBox_TextChanged">
+                    Enter Editor
+                </TextBox>
+            </Button.Content>
+        </Button>
+        <!--end of basic user button-->
+        <!--button to close down the aplicaion-->
+        <Button x:Name="Exit_Program" Click="Exit_Program_Click" Content="Exit" FontFamily="Century Gothic" Height="auto" Width="auto" Background="Black" Foreground="White" FontSize="15" Margin="10,279,457,10">
+        </Button>
+        <!--end of end button-->
+
+        <!--start of main menu button-->
+
+
+    </Grid>
+
+
+
+
+</Window>
